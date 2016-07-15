@@ -1,0 +1,89 @@
+/**************************************
+---
+meta:
+author: Alessio Atzeni
+homepage: http://www.alessioatzeni.com
+email: info@alessioatzeni.com
+twitter: http://twitter.com/bluxart
+dribbble: http://dribbble.com/Bluxart
+license: SIL
+license_url: http://scripts.sil.org/OFL
+css_prefix_text: "icon-"
+columns: 4
+font:
+fontname: meteocons
+fullname: Meteocons
+familyname: Meteocons
+copyright: Copyright (C) 2012 by Alessio Atzeni
+ascent: 850
+descent: -150
+weight: Normal
+
+**************************************/
+
+
+@font-face {
+	font-family: 'ff-font-meteocons';
+	src: url('./ff-font-meteocons.eot?v=4.0.3');
+	src: url('./ff-font-meteocons.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-meteocons.woff?v=4.0.3') format('woff'), url('./ff-font-meteocons.ttf?v=4.0.3') format('truetype'), url('./ff-font-meteocons.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-meteocons {
+	display: inline-block;
+	font-family: 'ff-font-meteocons';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff-font-meteocons.icon-windy-rain-inv:before { content: '\21'; } /* windy rain weather */ 
+.ff-font-meteocons.icon-snow-inv:before { content: '\22'; } /* snow weather */ 
+.ff-font-meteocons.icon-snow-heavy-inv:before { content: '\23'; } /* snow weather */ 
+.ff-font-meteocons.icon-hail-inv:before { content: '\24'; } /* hail weather */ 
+.ff-font-meteocons.icon-clouds-inv:before { content: '\25'; } /* clouds weather */ 
+.ff-font-meteocons.icon-clouds-flash-inv:before { content: '\26'; } /* clouds flash weather */ 
+.ff-font-meteocons.icon-temperature:before { content: '\27'; } /* temperature weather */ 
+.ff-font-meteocons.icon-compass:before { content: '\28'; } /* compass weather */ 
+.ff-font-meteocons.icon-na:before { content: '\29'; } /* not available weather */ 
+.ff-font-meteocons.icon-celcius:before { content: '\2a'; } /* celcius */ 
+.ff-font-meteocons.icon-fahrenheit:before { content: '\2b'; } /* fahrenheit weather */ 
+.ff-font-meteocons.icon-clouds-flash-alt:before { content: '\30'; } /* clouds flash weather */ 
+.ff-font-meteocons.icon-sun-inv:before { content: '\31'; } /* sun weather */ 
+.ff-font-meteocons.icon-moon-inv:before { content: '\32'; } /* moon weather */ 
+.ff-font-meteocons.icon-cloud-sun-inv:before { content: '\33'; } /* cloud sun weather */ 
+.ff-font-meteocons.icon-cloud-moon-inv:before { content: '\34'; } /* cloud moon weather */ 
+.ff-font-meteocons.icon-cloud-inv:before { content: '\35'; } /* cloud weather */ 
+.ff-font-meteocons.icon-cloud-flash-inv:before { content: '\36'; } /* cloud flash weather */ 
+.ff-font-meteocons.icon-drizzle-inv:before { content: '\37'; } /* rain drizzle weather */ 
+.ff-font-meteocons.icon-rain-inv:before { content: '\38'; } /* rain drizzle weather */ 
+.ff-font-meteocons.icon-windy-inv:before { content: '\39'; } /* windy weather */ 
+.ff-font-meteocons.icon-sunrise:before { content: '\41'; } /* sun sunrise weather */ 
+.ff-font-meteocons.icon-sun:before { content: '\42'; } /* sun weather */ 
+.ff-font-meteocons.icon-moon:before { content: '\43'; } /* moon weather */ 
+.ff-font-meteocons.icon-eclipse:before { content: '\44'; } /* eclipse weather */ 
+.ff-font-meteocons.icon-mist:before { content: '\45'; } /* mist fog weather */ 
+.ff-font-meteocons.icon-wind:before { content: '\46'; } /* wind weather */ 
+.ff-font-meteocons.icon-snowflake:before { content: '\47'; } /* snowflake weather */ 
+.ff-font-meteocons.icon-cloud-sun:before { content: '\48'; } /* cloud sun weather */ 
+.ff-font-meteocons.icon-cloud-moon:before { content: '\49'; } /* cloud moon weather */ 
+.ff-font-meteocons.icon-fog-sun:before { content: '\4a'; } /* fog sun weather */ 
+.ff-font-meteocons.icon-fog-moon:before { content: '\4b'; } /* fog moon weather */ 
+.ff-font-meteocons.icon-fog-cloud:before { content: '\4c'; } /* fog cloud weather */ 
+.ff-font-meteocons.icon-fog:before { content: '\4d'; } /* fog weather */ 
+.ff-font-meteocons.icon-cloud:before { content: '\4e'; } /* cloud weather */ 
+.ff-font-meteocons.icon-cloud-flash:before { content: '\4f'; } /* cloud flash weather */ 
+.ff-font-meteocons.icon-cloud-flash-alt:before { content: '\50'; } /* cloud flash weather */ 
+.ff-font-meteocons.icon-drizzle:before { content: '\51'; } /* rain drizzle weather */ 
+.ff-font-meteocons.icon-rain:before { content: '\52'; } /* rain drizzle weather */ 
+.ff-font-meteocons.icon-windy:before { content: '\53'; } /* windy weather */ 
+.ff-font-meteocons.icon-windy-rain:before { content: '\54'; } /* windy rain weather */ 
+.ff-font-meteocons.icon-snow:before { content: '\55'; } /* snow weather */ 
+.ff-font-meteocons.icon-snow-alt:before { content: '\56'; } /* snow weather */ 
+.ff-font-meteocons.icon-snow-heavy:before { content: '\57'; } /* snow weather */ 
+.ff-font-meteocons.icon-hail:before { content: '\58'; } /* hail weather */ 
+.ff-font-meteocons.icon-clouds:before { content: '\59'; } /* clouds weather */ 
+.ff-font-meteocons.icon-clouds-flash:before { content: '\5a'; } /* clouds flash weather */ 

@@ -1,0 +1,76 @@
+/**************************************
+---
+meta:
+author: Crowdsourced, for Fontello project
+homepage: http://fontello.com
+email: vitaly@rcdesign.ru
+twitter: http://twitter.com/puzrin
+github: https://github.com/fontello/fontelico.font
+license: SIL
+license_url: http://scripts.sil.org/OFL
+css_prefix_text: "icon-"
+columns: 4
+font:
+fontname: fontelico
+fullname: Fontelico
+familyname: Fontelico
+copyright: Copyright (C) 2012 by Fontello project
+ascent: 850
+descent: -150
+weight: Normal
+
+**************************************/
+
+
+@font-face {
+	font-family: 'ff-font-fontelico';
+	src: url('./ff-font-fontelico.eot?v=4.0.3');
+	src: url('./ff-font-fontelico.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-fontelico.woff?v=4.0.3') format('woff'), url('./ff-font-fontelico.ttf?v=4.0.3') format('truetype'), url('./ff-font-fontelico.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-fontelico {
+	display: inline-block;
+	font-family: 'ff-font-fontelico';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff-font-fontelico.icon-emo-happy:before { content: '\e800'; } /* emoticon smiley happy */ 
+.ff-font-fontelico.icon-emo-wink:before { content: '\e801'; } /* emoticon smiley wink */ 
+.ff-font-fontelico.icon-emo-wink2:before { content: '\e813'; } /* emoticon smiley wink */ 
+.ff-font-fontelico.icon-emo-unhappy:before { content: '\e802'; } /* emoticon smiley unhappy */ 
+.ff-font-fontelico.icon-emo-sleep:before { content: '\e803'; } /* emoticon smiley sleep */ 
+.ff-font-fontelico.icon-emo-thumbsup:before { content: '\e804'; } /* emoticon smiley thumbsup */ 
+.ff-font-fontelico.icon-emo-devil:before { content: '\e805'; } /* emoticon smiley devil */ 
+.ff-font-fontelico.icon-emo-surprised:before { content: '\e806'; } /* emoticon smiley surprised */ 
+.ff-font-fontelico.icon-emo-tongue:before { content: '\e807'; } /* emoticon smiley tongue */ 
+.ff-font-fontelico.icon-emo-coffee:before { content: '\e808'; } /* emoticon smiley coffee */ 
+.ff-font-fontelico.icon-emo-sunglasses:before { content: '\e809'; } /* emoticon smiley sunglasses */ 
+.ff-font-fontelico.icon-emo-displeased:before { content: '\e80a'; } /* emoticon smiley displeased */ 
+.ff-font-fontelico.icon-emo-beer:before { content: '\e80b'; } /* emoticon smiley beer */ 
+.ff-font-fontelico.icon-emo-grin:before { content: '\e80c'; } /* emoticon smiley grin */ 
+.ff-font-fontelico.icon-emo-angry:before { content: '\e80d'; } /* emoticon smiley angry */ 
+.ff-font-fontelico.icon-emo-saint:before { content: '\e80e'; } /* emoticon smiley saint */ 
+.ff-font-fontelico.icon-emo-cry:before { content: '\e80f'; } /* emoticon smiley cry */ 
+.ff-font-fontelico.icon-emo-shoot:before { content: '\e810'; } /* emoticon smiley shoot */ 
+.ff-font-fontelico.icon-emo-squint:before { content: '\e811'; } /* emoticon smiley squint */ 
+.ff-font-fontelico.icon-emo-laugh:before { content: '\e812'; } /* emoticon smiley laugh */ 
+.ff-font-fontelico.icon-spin1:before { content: '\e830'; } /* load progress wait */ 
+.ff-font-fontelico.icon-spin2:before { content: '\e831'; } /* load progress wait */ 
+.ff-font-fontelico.icon-spin3:before { content: '\e832'; } /* load progress wait */ 
+.ff-font-fontelico.icon-spin4:before { content: '\e834'; } /* load progress wait */ 
+.ff-font-fontelico.icon-spin5:before { content: '\e838'; } /* load progress wait */ 
+.ff-font-fontelico.icon-spin6:before { content: '\e839'; } /* load progress wait */ 
+.ff-font-fontelico.icon-firefox:before { content: '\e840'; } /* browser firefox */ 
+.ff-font-fontelico.icon-chrome:before { content: '\e841'; } /* browser chrome */ 
+.ff-font-fontelico.icon-opera:before { content: '\e842'; } /* browser opera */ 
+.ff-font-fontelico.icon-ie:before { content: '\e843'; } /* browser ie bullshit crap */ 
+.ff-font-fontelico.icon-crown:before { content: '\e844'; } /* crown leader */ 
+.ff-font-fontelico.icon-crown-plus:before { content: '\e845'; } /* crown plus leader add */ 
+.ff-font-fontelico.icon-crown-minus:before { content: '\e846'; } /* crown minus leader remove */ 
+.ff-font-fontelico.icon-marquee:before { content: '\e847'; } /* marquee */ 

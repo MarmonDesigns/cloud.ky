@@ -1,0 +1,86 @@
+/*
+Theme Name: Milo
+Theme URI: http://themeforest.net/user/freshface/portfolio
+Description: Premium WordPress Theme
+Author: FRESHFACE
+Author URI: http://themeforest.net/user/freshface/portfolio
+License: Go to the "license" folder
+License URI: Go to the "license" folder
+Text Domain: milo
+Tags: light, white, two-columns, right-sidebar
+Version: 1.1.5
+*/
+
+/* WORDPRESS DEFAULT INSERT IMAGE CLASSESSS */
+
+.alignnone {
+    margin: 5px 20px 0 0 !important;
+    display: inline-block !important;
+}
+
+.aligncenter{
+    display: block;
+    margin: 5px auto 0 auto !important;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 30px 20px !important;
+    max-width: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 30px 0 !important;
+    max-width: 100%;
+}
+
+.sticky 	{
+	border: 5px solid #777777;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 0 30px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 30px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 30px 20px;
+}
+
+.wp-caption     {
+    width: auto !important;
+    font-style: italic;
+}
+
+.wp-caption-text    {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-caption {
+    font-size: 11px;
+    line-height: 17px;
+    padding: 0 15px;
+}
+
+.bypostauthor 	{
+	border: 1px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
