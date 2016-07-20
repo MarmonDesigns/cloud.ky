@@ -1,0 +1,344 @@
+/**************************************
+
+MIU icons
+
+Author Web:
+http://www.flaticon.com/packs/miu-icons
+
+Licence:
+http://creativecommons.org/licenses/by/3.0/
+
+**************************************/
+
+@font-face {
+	font-family: 'ff-font-miu';
+	src: url('./ff-font-miu.eot?v=4.0.3');
+	src: url('./ff-font-miu.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-miu.woff?v=4.0.3') format('woff'), url('./ff-font-miu.ttf?v=4.0.3') format('truetype'), url('./ff-font-miu.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-miu {
+	display: inline-block;
+	font-family: 'ff-font-miu';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+/*
+	font-size: 20px;
+	margin-left: 20px;
+*/
+}
+
+.ff-font-miu.icon-add138:before { content: '\e000'; }
+.ff-font-miu.icon-add140:before { content: '\e001'; }
+.ff-font-miu.icon-add142:before { content: '\e002'; }
+.ff-font-miu.icon-add143:before { content: '\e003'; }
+.ff-font-miu.icon-add144:before { content: '\e004'; }
+.ff-font-miu.icon-add145:before { content: '\e005'; }
+.ff-font-miu.icon-add147:before { content: '\e006'; }
+.ff-font-miu.icon-add150:before { content: '\e007'; }
+.ff-font-miu.icon-add151:before { content: '\e008'; }
+.ff-font-miu.icon-add152:before { content: '\e009'; }
+.ff-font-miu.icon-add153:before { content: '\e00a'; }
+.ff-font-miu.icon-add154:before { content: '\e00b'; }
+.ff-font-miu.icon-alarm30:before { content: '\e00c'; }
+.ff-font-miu.icon-arrow591:before { content: '\e00d'; }
+.ff-font-miu.icon-arrow594:before { content: '\e00e'; }
+.ff-font-miu.icon-attachment14:before { content: '\e00f'; }
+.ff-font-miu.icon-attachment16:before { content: '\e010'; }
+.ff-font-miu.icon-audio47:before { content: '\e011'; }
+.ff-font-miu.icon-audio48:before { content: '\e012'; }
+.ff-font-miu.icon-back43:before { content: '\e013'; }
+.ff-font-miu.icon-back45:before { content: '\e014'; }
+.ff-font-miu.icon-back48:before { content: '\e015'; }
+.ff-font-miu.icon-battery140:before { content: '\e016'; }
+.ff-font-miu.icon-battery141:before { content: '\e017'; }
+.ff-font-miu.icon-battery142:before { content: '\e018'; }
+.ff-font-miu.icon-birthday16:before { content: '\e019'; }
+.ff-font-miu.icon-birthday17:before { content: '\e01a'; }
+.ff-font-miu.icon-black375:before { content: '\e01b'; }
+.ff-font-miu.icon-black379:before { content: '\e01c'; }
+.ff-font-miu.icon-black381:before { content: '\e01d'; }
+.ff-font-miu.icon-black382:before { content: '\e01e'; }
+.ff-font-miu.icon-black385:before { content: '\e01f'; }
+.ff-font-miu.icon-blackboard10:before { content: '\e020'; }
+.ff-font-miu.icon-blackboard11:before { content: '\e021'; }
+.ff-font-miu.icon-blackboard12:before { content: '\e022'; }
+.ff-font-miu.icon-blackboard8:before { content: '\e023'; }
+.ff-font-miu.icon-blackboard9:before { content: '\e024'; }
+.ff-font-miu.icon-blank28:before { content: '\e025'; }
+.ff-font-miu.icon-board1:before { content: '\e026'; }
+.ff-font-miu.icon-book186:before { content: '\e027'; }
+.ff-font-miu.icon-book189:before { content: '\e028'; }
+.ff-font-miu.icon-bookmark29:before { content: '\e029'; }
+.ff-font-miu.icon-bookmark30:before { content: '\e02a'; }
+.ff-font-miu.icon-box59:before { content: '\e02b'; }
+.ff-font-miu.icon-box60:before { content: '\e02c'; }
+.ff-font-miu.icon-button4:before { content: '\e02d'; }
+.ff-font-miu.icon-cash14:before { content: '\e02e'; }
+.ff-font-miu.icon-cellphone54:before { content: '\e02f'; }
+.ff-font-miu.icon-cellphone56:before { content: '\e030'; }
+.ff-font-miu.icon-cellphone57:before { content: '\e031'; }
+.ff-font-miu.icon-cellphone58:before { content: '\e032'; }
+.ff-font-miu.icon-chat52:before { content: '\e033'; }
+.ff-font-miu.icon-chat56:before { content: '\e034'; }
+.ff-font-miu.icon-chocolate4:before { content: '\e035'; }
+.ff-font-miu.icon-circle92:before { content: '\e036'; }
+.ff-font-miu.icon-circular221:before { content: '\e037'; }
+.ff-font-miu.icon-circular223:before { content: '\e038'; }
+.ff-font-miu.icon-circular225:before { content: '\e039'; }
+.ff-font-miu.icon-circular226:before { content: '\e03a'; }
+.ff-font-miu.icon-circular230:before { content: '\e03b'; }
+.ff-font-miu.icon-circular231:before { content: '\e03c'; }
+.ff-font-miu.icon-circular232:before { content: '\e03d'; }
+.ff-font-miu.icon-clipboard69:before { content: '\e03e'; }
+.ff-font-miu.icon-clipboard70:before { content: '\e03f'; }
+.ff-font-miu.icon-clock73:before { content: '\e040'; }
+.ff-font-miu.icon-clock74:before { content: '\e041'; }
+.ff-font-miu.icon-clock77:before { content: '\e042'; }
+.ff-font-miu.icon-clockwise4:before { content: '\e043'; }
+.ff-font-miu.icon-clockwise5:before { content: '\e044'; }
+.ff-font-miu.icon-cloud259:before { content: '\e045'; }
+.ff-font-miu.icon-cocktail24:before { content: '\e046'; }
+.ff-font-miu.icon-cocktail25:before { content: '\e047'; }
+.ff-font-miu.icon-coffee60:before { content: '\e048'; }
+.ff-font-miu.icon-coffee61:before { content: '\e049'; }
+.ff-font-miu.icon-cogwheel23:before { content: '\e04a'; }
+.ff-font-miu.icon-comment43:before { content: '\e04b'; }
+.ff-font-miu.icon-compass83:before { content: '\e04c'; }
+.ff-font-miu.icon-compass84:before { content: '\e04d'; }
+.ff-font-miu.icon-computer160:before { content: '\e04e'; }
+.ff-font-miu.icon-configuration15:before { content: '\e04f'; }
+.ff-font-miu.icon-copy20:before { content: '\e050'; }
+.ff-font-miu.icon-copy21:before { content: '\e051'; }
+.ff-font-miu.icon-copy22:before { content: '\e052'; }
+.ff-font-miu.icon-copy25:before { content: '\e053'; }
+.ff-font-miu.icon-counterclockwise3:before { content: '\e054'; }
+.ff-font-miu.icon-counterclockwise4:before { content: '\e055'; }
+.ff-font-miu.icon-counterclockwise6:before { content: '\e056'; }
+.ff-font-miu.icon-cross78:before { content: '\e057'; }
+.ff-font-miu.icon-cross80:before { content: '\e058'; }
+.ff-font-miu.icon-crystal3:before { content: '\e059'; }
+.ff-font-miu.icon-cupcake15:before { content: '\e05a'; }
+.ff-font-miu.icon-curved22:before { content: '\e05b'; }
+.ff-font-miu.icon-daily19:before { content: '\e05c'; }
+.ff-font-miu.icon-dark54:before { content: '\e05d'; }
+.ff-font-miu.icon-decrease3:before { content: '\e05e'; }
+.ff-font-miu.icon-discharged1:before { content: '\e05f'; }
+.ff-font-miu.icon-documents18:before { content: '\e060'; }
+.ff-font-miu.icon-dollar153:before { content: '\e061'; }
+.ff-font-miu.icon-dollar154:before { content: '\e062'; }
+.ff-font-miu.icon-dollar155:before { content: '\e063'; }
+.ff-font-miu.icon-dollar156:before { content: '\e064'; }
+.ff-font-miu.icon-dollar157:before { content: '\e065'; }
+.ff-font-miu.icon-dollars36:before { content: '\e066'; }
+.ff-font-miu.icon-down65:before { content: '\e067'; }
+.ff-font-miu.icon-download140:before { content: '\e068'; }
+.ff-font-miu.icon-download143:before { content: '\e069'; }
+.ff-font-miu.icon-download144:before { content: '\e06a'; }
+.ff-font-miu.icon-download145:before { content: '\e06b'; }
+.ff-font-miu.icon-drink46:before { content: '\e06c'; }
+.ff-font-miu.icon-email65:before { content: '\e06d'; }
+.ff-font-miu.icon-email68:before { content: '\e06e'; }
+.ff-font-miu.icon-email70:before { content: '\e06f'; }
+.ff-font-miu.icon-email71:before { content: '\e070'; }
+.ff-font-miu.icon-email73:before { content: '\e071'; }
+.ff-font-miu.icon-empty38:before { content: '\e072'; }
+.ff-font-miu.icon-event3:before { content: '\e073'; }
+.ff-font-miu.icon-event5:before { content: '\e074'; }
+.ff-font-miu.icon-event7:before { content: '\e075'; }
+.ff-font-miu.icon-facebook51:before { content: '\e076'; }
+.ff-font-miu.icon-facebook52:before { content: '\e077'; }
+.ff-font-miu.icon-favorites3:before { content: '\e078'; }
+.ff-font-miu.icon-file63:before { content: '\e079'; }
+.ff-font-miu.icon-file64:before { content: '\e07a'; }
+.ff-font-miu.icon-file65:before { content: '\e07b'; }
+.ff-font-miu.icon-file66:before { content: '\e07c'; }
+.ff-font-miu.icon-flag49:before { content: '\e07d'; }
+.ff-font-miu.icon-flag50:before { content: '\e07e'; }
+.ff-font-miu.icon-flag51:before { content: '\e07f'; }
+.ff-font-miu.icon-flag54:before { content: '\e080'; }
+.ff-font-miu.icon-folder170:before { content: '\e081'; }
+.ff-font-miu.icon-folder171:before { content: '\e082'; }
+.ff-font-miu.icon-folder172:before { content: '\e083'; }
+.ff-font-miu.icon-frame23:before { content: '\e084'; }
+.ff-font-miu.icon-full38:before { content: '\e085'; }
+.ff-font-miu.icon-full39:before { content: '\e086'; }
+.ff-font-miu.icon-geometric12:before { content: '\e087'; }
+.ff-font-miu.icon-glass47:before { content: '\e088'; }
+.ff-font-miu.icon-glass48:before { content: '\e089'; }
+.ff-font-miu.icon-global25:before { content: '\e08a'; }
+.ff-font-miu.icon-google114:before { content: '\e08b'; }
+.ff-font-miu.icon-google115:before { content: '\e08c'; }
+.ff-font-miu.icon-graphical7:before { content: '\e08d'; }
+.ff-font-miu.icon-graphical9:before { content: '\e08e'; }
+.ff-font-miu.icon-half32:before { content: '\e08f'; }
+.ff-font-miu.icon-half33:before { content: '\e090'; }
+.ff-font-miu.icon-headphones31:before { content: '\e091'; }
+.ff-font-miu.icon-headphones33:before { content: '\e092'; }
+.ff-font-miu.icon-heart280:before { content: '\e093'; }
+.ff-font-miu.icon-heart281:before { content: '\e094'; }
+.ff-font-miu.icon-help16:before { content: '\e095'; }
+.ff-font-miu.icon-horizontal34:before { content: '\e096'; }
+.ff-font-miu.icon-horizontal35:before { content: '\e097'; }
+.ff-font-miu.icon-house128:before { content: '\e098'; }
+.ff-font-miu.icon-house129:before { content: '\e099'; }
+.ff-font-miu.icon-images17:before { content: '\e09a'; }
+.ff-font-miu.icon-images19:before { content: '\e09b'; }
+.ff-font-miu.icon-images20:before { content: '\e09c'; }
+.ff-font-miu.icon-info21:before { content: '\e09d'; }
+.ff-font-miu.icon-information52:before { content: '\e09e'; }
+.ff-font-miu.icon-internet35:before { content: '\e09f'; }
+.ff-font-miu.icon-keyboard48:before { content: '\e0a0'; }
+.ff-font-miu.icon-label22:before { content: '\e0a1'; }
+.ff-font-miu.icon-label23:before { content: '\e0a2'; }
+.ff-font-miu.icon-label24:before { content: '\e0a3'; }
+.ff-font-miu.icon-laptop106:before { content: '\e0a4'; }
+.ff-font-miu.icon-laptop107:before { content: '\e0a5'; }
+.ff-font-miu.icon-left157:before { content: '\e0a6'; }
+.ff-font-miu.icon-left164:before { content: '\e0a7'; }
+.ff-font-miu.icon-less12:before { content: '\e0a8'; }
+.ff-font-miu.icon-library12:before { content: '\e0a9'; }
+.ff-font-miu.icon-locked33:before { content: '\e0aa'; }
+.ff-font-miu.icon-locked35:before { content: '\e0ab'; }
+.ff-font-miu.icon-login10:before { content: '\e0ac'; }
+.ff-font-miu.icon-login11:before { content: '\e0ad'; }
+.ff-font-miu.icon-logout10:before { content: '\e0ae'; }
+.ff-font-miu.icon-logout11:before { content: '\e0af'; }
+.ff-font-miu.icon-logout7:before { content: '\e0b0'; }
+.ff-font-miu.icon-logout8:before { content: '\e0b1'; }
+.ff-font-miu.icon-mail68:before { content: '\e0b2'; }
+.ff-font-miu.icon-map89:before { content: '\e0b3'; }
+.ff-font-miu.icon-menu42:before { content: '\e0b4'; }
+.ff-font-miu.icon-menu45:before { content: '\e0b5'; }
+.ff-font-miu.icon-mobile216:before { content: '\e0b6'; }
+.ff-font-miu.icon-mobile218:before { content: '\e0b7'; }
+.ff-font-miu.icon-money125:before { content: '\e0b8'; }
+.ff-font-miu.icon-monitor76:before { content: '\e0b9'; }
+.ff-font-miu.icon-more10:before { content: '\e0ba'; }
+.ff-font-miu.icon-more11:before { content: '\e0bb'; }
+.ff-font-miu.icon-more12:before { content: '\e0bc'; }
+.ff-font-miu.icon-more13:before { content: '\e0bd'; }
+.ff-font-miu.icon-more14:before { content: '\e0be'; }
+.ff-font-miu.icon-music214:before { content: '\e0bf'; }
+.ff-font-miu.icon-music215:before { content: '\e0c0'; }
+.ff-font-miu.icon-music216:before { content: '\e0c1'; }
+.ff-font-miu.icon-music217:before { content: '\e0c2'; }
+.ff-font-miu.icon-mute31:before { content: '\e0c3'; }
+.ff-font-miu.icon-mute33:before { content: '\e0c4'; }
+.ff-font-miu.icon-new85:before { content: '\e0c5'; }
+.ff-font-miu.icon-nine17:before { content: '\e0c6'; }
+.ff-font-miu.icon-notebook42:before { content: '\e0c7'; }
+.ff-font-miu.icon-notebook43:before { content: '\e0c8'; }
+.ff-font-miu.icon-open199:before { content: '\e0c9'; }
+.ff-font-miu.icon-opened26:before { content: '\e0ca'; }
+.ff-font-miu.icon-options:before { content: '\e0cb'; }
+.ff-font-miu.icon-pencil82:before { content: '\e0cc'; }
+.ff-font-miu.icon-pencil83:before { content: '\e0cd'; }
+.ff-font-miu.icon-pencil84:before { content: '\e0ce'; }
+.ff-font-miu.icon-pencil86:before { content: '\e0cf'; }
+.ff-font-miu.icon-phone348:before { content: '\e0d0'; }
+.ff-font-miu.icon-phone349:before { content: '\e0d1'; }
+.ff-font-miu.icon-phone350:before { content: '\e0d2'; }
+.ff-font-miu.icon-photo177:before { content: '\e0d3'; }
+.ff-font-miu.icon-photo182:before { content: '\e0d4'; }
+.ff-font-miu.icon-photos11:before { content: '\e0d5'; }
+.ff-font-miu.icon-pinterest30:before { content: '\e0d6'; }
+.ff-font-miu.icon-pinterest31:before { content: '\e0d7'; }
+.ff-font-miu.icon-pizza12:before { content: '\e0d8'; }
+.ff-font-miu.icon-pizza13:before { content: '\e0d9'; }
+.ff-font-miu.icon-placeholder19:before { content: '\e0da'; }
+.ff-font-miu.icon-placeholder20:before { content: '\e0db'; }
+.ff-font-miu.icon-play79:before { content: '\e0dc'; }
+.ff-font-miu.icon-play81:before { content: '\e0dd'; }
+.ff-font-miu.icon-portfolio25:before { content: '\e0de'; }
+.ff-font-miu.icon-portfolio26:before { content: '\e0df'; }
+.ff-font-miu.icon-postcard5:before { content: '\e0e0'; }
+.ff-font-miu.icon-postcard6:before { content: '\e0e1'; }
+.ff-font-miu.icon-power98:before { content: '\e0e2'; }
+.ff-font-miu.icon-power99:before { content: '\e0e3'; }
+.ff-font-miu.icon-print33:before { content: '\e0e4'; }
+.ff-font-miu.icon-printer78:before { content: '\e0e5'; }
+.ff-font-miu.icon-questions1:before { content: '\e0e6'; }
+.ff-font-miu.icon-reading19:before { content: '\e0e7'; }
+.ff-font-miu.icon-recycle64:before { content: '\e0e8'; }
+.ff-font-miu.icon-recycling11:before { content: '\e0e9'; }
+.ff-font-miu.icon-refresh51:before { content: '\e0ea'; }
+.ff-font-miu.icon-refresh52:before { content: '\e0eb'; }
+.ff-font-miu.icon-refreshing1:before { content: '\e0ec'; }
+.ff-font-miu.icon-restaurant40:before { content: '\e0ed'; }
+.ff-font-miu.icon-restaurant41:before { content: '\e0ee'; }
+.ff-font-miu.icon-restaurant42:before { content: '\e0ef'; }
+.ff-font-miu.icon-restaurant43:before { content: '\e0f0'; }
+.ff-font-miu.icon-right140:before { content: '\e0f1'; }
+.ff-font-miu.icon-right145:before { content: '\e0f2'; }
+.ff-font-miu.icon-right147:before { content: '\e0f3'; }
+.ff-font-miu.icon-right149:before { content: '\e0f4'; }
+.ff-font-miu.icon-right150:before { content: '\e0f5'; }
+.ff-font-miu.icon-right151:before { content: '\e0f6'; }
+.ff-font-miu.icon-right158:before { content: '\e0f7'; }
+.ff-font-miu.icon-save16:before { content: '\e0f8'; }
+.ff-font-miu.icon-saving3:before { content: '\e0f9'; }
+.ff-font-miu.icon-search75:before { content: '\e0fa'; }
+.ff-font-miu.icon-search76:before { content: '\e0fb'; }
+.ff-font-miu.icon-semicircular6:before { content: '\e0fc'; }
+.ff-font-miu.icon-semicircular7:before { content: '\e0fd'; }
+.ff-font-miu.icon-settings42:before { content: '\e0fe'; }
+.ff-font-miu.icon-speaker79:before { content: '\e0ff'; }
+.ff-font-miu.icon-speaker82:before { content: '\e100'; }
+.ff-font-miu.icon-speaker85:before { content: '\e101'; }
+.ff-font-miu.icon-speaker88:before { content: '\e102'; }
+.ff-font-miu.icon-speech100:before { content: '\e103'; }
+.ff-font-miu.icon-speech98:before { content: '\e104'; }
+.ff-font-miu.icon-speed8:before { content: '\e105'; }
+.ff-font-miu.icon-speedometer29:before { content: '\e106'; }
+.ff-font-miu.icon-square154:before { content: '\e107'; }
+.ff-font-miu.icon-square158:before { content: '\e108'; }
+.ff-font-miu.icon-square159:before { content: '\e109'; }
+.ff-font-miu.icon-square162:before { content: '\e10a'; }
+.ff-font-miu.icon-star156:before { content: '\e10b'; }
+.ff-font-miu.icon-tablet78:before { content: '\e10c'; }
+.ff-font-miu.icon-tablet79:before { content: '\e10d'; }
+.ff-font-miu.icon-tablet80:before { content: '\e10e'; }
+.ff-font-miu.icon-tablet81:before { content: '\e10f'; }
+.ff-font-miu.icon-tablet82:before { content: '\e110'; }
+.ff-font-miu.icon-tablet83:before { content: '\e111'; }
+.ff-font-miu.icon-tablet84:before { content: '\e112'; }
+.ff-font-miu.icon-tablet85:before { content: '\e113'; }
+.ff-font-miu.icon-tablet86:before { content: '\e114'; }
+.ff-font-miu.icon-tag45:before { content: '\e115'; }
+.ff-font-miu.icon-telephone96:before { content: '\e116'; }
+.ff-font-miu.icon-telephone97:before { content: '\e117'; }
+.ff-font-miu.icon-tie2:before { content: '\e118'; }
+.ff-font-miu.icon-tie3:before { content: '\e119'; }
+.ff-font-miu.icon-triptych3:before { content: '\e11a'; }
+.ff-font-miu.icon-twitter43:before { content: '\e11b'; }
+.ff-font-miu.icon-twitter44:before { content: '\e11c'; }
+.ff-font-miu.icon-two312:before { content: '\e11d'; }
+.ff-font-miu.icon-two314:before { content: '\e11e'; }
+.ff-font-miu.icon-two315:before { content: '\e11f'; }
+.ff-font-miu.icon-two321:before { content: '\e120'; }
+.ff-font-miu.icon-two324:before { content: '\e121'; }
+.ff-font-miu.icon-unlocked24:before { content: '\e122'; }
+.ff-font-miu.icon-unlocked25:before { content: '\e123'; }
+.ff-font-miu.icon-up106:before { content: '\e124'; }
+.ff-font-miu.icon-up113:before { content: '\e125'; }
+.ff-font-miu.icon-upload88:before { content: '\e126'; }
+.ff-font-miu.icon-upload90:before { content: '\e127'; }
+.ff-font-miu.icon-upload93:before { content: '\e128'; }
+.ff-font-miu.icon-upload94:before { content: '\e129'; }
+.ff-font-miu.icon-upload95:before { content: '\e12a'; }
+.ff-font-miu.icon-upper7:before { content: '\e12b'; }
+.ff-font-miu.icon-video161:before { content: '\e12c'; }
+.ff-font-miu.icon-video162:before { content: '\e12d'; }
+.ff-font-miu.icon-voice21:before { content: '\e12e'; }
+.ff-font-miu.icon-voice23:before { content: '\e12f'; }
+.ff-font-miu.icon-whiteboard10:before { content: '\e130'; }
+.ff-font-miu.icon-whiteboard8:before { content: '\e131'; }
+.ff-font-miu.icon-whiteboard9:before { content: '\e132'; }
+.ff-font-miu.icon-wine56:before { content: '\e133'; }
+.ff-font-miu.icon-write18:before { content: '\e134'; }
+.ff-font-miu.icon-zoom57:before { content: '\e135'; }

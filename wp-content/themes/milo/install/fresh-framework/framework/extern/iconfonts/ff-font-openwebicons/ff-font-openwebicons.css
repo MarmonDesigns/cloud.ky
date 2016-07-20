@@ -1,0 +1,131 @@
+/**************************************
+This is created from orginal font.
+See 'README.md' for more info
+**************************************/
+
+@font-face { 
+	font-family: 'ff-font-openwebicons';
+	src: url('./ff-font-openwebicons.eot');
+	src: url('./ff-font-openwebicons.eot?#iefix') format('embedded-opentype'), url('./ff-font-openwebicons.woff') format('woff'), url('./ff-font-openwebicons.ttf') format('truetype'), url('./ff-font-openwebicons.svg#openweb_iconsregular') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+.ff-font-openwebicons { display: inline-block;
+	font-family: 'ff-font-openwebicons';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; 
+}
+
+.ff-font-openwebicons.icon-apml:before { content: '\f001'; }
+.ff-font-openwebicons.icon-apml-colored:before { content: '\f001'; color: #AFDD63; }
+.ff-font-openwebicons.icon-open-share:before { content: '\f00E'; }
+.ff-font-openwebicons.icon-open-share-simple:before { content: '\f00F'; }
+.ff-font-openwebicons.icon-open-share-colored:before { content: '\f00E'; color: #538439; }
+.ff-font-openwebicons.icon-share:before { content: '\f006'; }
+.ff-font-openwebicons.icon-share-simple:before { content: '\f007'; }
+.ff-font-openwebicons.icon-share-colored:before { content: '\f006'; color: #538439; }
+.ff-font-openwebicons.icon-feed:before { content: '\f009'; }
+.ff-font-openwebicons.icon-feed-simple:before { content: '\f00A'; }
+.ff-font-openwebicons.icon-feed-colored:before { content: '\f009'; color: #EA680B; }
+.ff-font-openwebicons.icon-ostatus:before { content: '\f004'; }
+.ff-font-openwebicons.icon-ostatus-simple:before { content: '\f005'; }
+.ff-font-openwebicons.icon-ostatus-colored:before { content: '\f004'; color: #FF6600; }
+.ff-font-openwebicons.icon-opml:before { content: '\f003'; }
+.ff-font-openwebicons.icon-opml-colored:before { content: '\f003'; color: #2490A1; }
+.ff-font-openwebicons.icon-activity:before { content: '\f010'; }
+.ff-font-openwebicons.icon-activity-simple:before { content: '\f041'; }
+.ff-font-openwebicons.icon-activity-colored:before { content: '\f010'; color: #4FB2D9; }
+.ff-font-openwebicons.icon-microformats:before { content: '\f00C'; }
+.ff-font-openwebicons.icon-microformats-colored:before { content: '\f00C'; color: #85BC07; }
+.ff-font-openwebicons.icon-geo:before { content: '\f00B'; }
+.ff-font-openwebicons.icon-geo-colored:before { content: '\f00B'; color: #990000; }
+.ff-font-openwebicons.icon-opensearch:before { content: '\f002'; }
+.ff-font-openwebicons.icon-opensearch-colored:before { content: '\f002'; color: #5050f3; }
+.ff-font-openwebicons.icon-oauth:before { content: '\f008'; }
+.ff-font-openwebicons.icon-openid:before { content: '\f00D'; }
+.ff-font-openwebicons.icon-semantic-web:before { content: '\f000'; }
+.ff-font-openwebicons.icon-rdf:before { content: '\f039'; }
+.ff-font-openwebicons.icon-rdfa:before { content: '\f039'; }
+.ff-font-openwebicons.icon-owl:before { content: '\f039'; }
+.ff-font-openwebicons.icon-dataportability:before { content: '\f013'; }
+.ff-font-openwebicons.icon-federated:before { content: '\f011'; }
+.ff-font-openwebicons.icon-web-intents:before { content: '\f014'; }
+.ff-font-openwebicons.icon-open-web:before { content: '\f012'; }
+.ff-font-openwebicons.icon-xmpp:before { content: '\f015'; }
+.ff-font-openwebicons.icon-html5:before { content: '\f016'; }
+.ff-font-openwebicons.icon-html5-colored:before { content: '\f016'; color: #E34C26; }
+.ff-font-openwebicons.icon-css3:before { content: '\f017'; }
+.ff-font-openwebicons.icon-connectivity:before { content: '\f018'; }
+.ff-font-openwebicons.icon-semantics:before { content: '\f019'; }
+.ff-font-openwebicons.icon-3deffects:before { content: '\f037'; }
+.ff-font-openwebicons.icon-device-access:before { content: '\f031'; }
+.ff-font-openwebicons.icon-multimedia:before { content: '\f032'; }
+.ff-font-openwebicons.icon-offline-storage:before { content: '\f033'; }
+.ff-font-openwebicons.icon-perfintegration:before { content: '\f034'; }
+.ff-font-openwebicons.icon-git:before { content: '\f035'; }
+.ff-font-openwebicons.icon-git-colored:before { content: '\f035'; color: #F05133; }
+.ff-font-openwebicons.icon-webhooks:before { content: '\f036'; }
+.ff-font-openwebicons.icon-osi:before { content: '\f038'; }
+.ff-font-openwebicons.icon-opensource:before { content: '\f038'; }
+.ff-font-openwebicons.icon-osi-colored:before { content: '\f038'; color: #3DA639; }
+.ff-font-openwebicons.icon-opensource-colored:before { content: '\f038'; color: #3DA639; }
+.ff-font-openwebicons.icon-opengraph:before { content: '\f020'; }
+.ff-font-openwebicons.icon-epub:before { content: '\f021'; }
+.ff-font-openwebicons.icon-epub-colored:before { content: '\f021'; color: #85b916; }
+.ff-font-openwebicons.icon-qr:before { content: '\f022'; }
+.ff-font-openwebicons.icon-foaf:before { content: '\f023'; }
+.ff-font-openwebicons.icon-info-card:before { content: '\f024'; }
+.ff-font-openwebicons.icon-info-card-colored:before { content: '\f024'; color: #BF84E5; }
+.ff-font-openwebicons.icon-browserid:before { content: '\f025'; }
+.ff-font-openwebicons.icon-remote-storage:before { content: '\f026'; }
+.ff-font-openwebicons.icon-remote-storage-colored:before { content: '\f026'; color: #ff4e09; }
+.ff-font-openwebicons.icon-persona:before { content: '\f027'; }
+.ff-font-openwebicons.icon-odata:before { content: '\f028'; }
+.ff-font-openwebicons.icon-odata-colored:before { content: '\f028'; color: #EA680B; }
+.ff-font-openwebicons.icon-markdown:before { content: '\f029'; }
+.ff-font-openwebicons.icon-tosdr:before { content: '\f030'; }
+.ff-font-openwebicons.icon-pub:before { content: '\f045'; }
+.ff-font-openwebicons.icon-sub:before { content: '\f046'; }
+.ff-font-openwebicons.icon-hubbub:before { content: '\f045'; }
+.ff-font-openwebicons.icon-pub-colored:before { content: '\f045'; color: #99cc00; }
+.ff-font-openwebicons.icon-sub-colored:before { content: '\f046'; color: #ffff00; }
+.ff-font-openwebicons.icon-hubbub-colored:before { content: '\f045'; color: #ff6fcf; }
+.ff-font-openwebicons.icon-pubsubhubbub:before { content: '\f047'; }
+.ff-font-openwebicons.icon-cc:before { content: '\f080'; }
+.ff-font-openwebicons.icon-cc-by:before { content: '\f081'; }
+.ff-font-openwebicons.icon-cc-nc:before { content: '\f082'; }
+.ff-font-openwebicons.icon-cc-nc-eu:before { content: '\f083'; }
+.ff-font-openwebicons.icon-cc-nc-jp:before { content: '\f084'; }
+.ff-font-openwebicons.icon-cc-sa:before { content: '\f085'; }
+.ff-font-openwebicons.icon-cc-nd:before { content: '\f086'; }
+.ff-font-openwebicons.icon-cc-public:before { content: '\f087'; }
+.ff-font-openwebicons.icon-cc-zero:before { content: '\f088'; }
+.ff-font-openwebicons.icon-cc-share:before { content: '\f089'; }
+.ff-font-openwebicons.icon-cc-remix:before { content: '\f08a'; }
+.ff-font-openwebicons.icon-hatom:before { content: '\f040'; }
+.ff-font-openwebicons.icon-hresume:before { content: '\f042'; }
+.ff-font-openwebicons.icon-hcard-add:before { content: '\f043'; }
+.ff-font-openwebicons.icon-hcard-download:before { content: '\f044'; }
+.ff-font-openwebicons.icon-indieweb:before { content: '\f08b \f08c'; }
+.ff-font-openwebicons.icon-indiewebcamp:before { content: '\f08b \f08c \f08d'; }
+.ff-font-openwebicons.icon-webfinger:before { content: '\f08e'; }
+.ff-font-openwebicons.icon-bitcoin:before { content: '\f08f'; }
+.ff-font-openwebicons.icon-bitcoin-simple:before { content: '\f090'; }
+.ff-font-openwebicons.icon-svg:before { content: '\f049'; }
+.ff-font-openwebicons.icon-json-ld:before { content: '\f048'; }
+.ff-font-openwebicons.icon-tent:before { content: '\f050'; }
+.ff-font-openwebicons.icon-copyleft:before { content: '\f051'; }
+.ff-font-openwebicons.icon-gnu:before { content: '\f052'; }
+.ff-font-openwebicons.icon-ofl-attribution:before { content: '\f081'; }
+.ff-font-openwebicons.icon-ofl-share:before { content: '\f085'; }
+.ff-font-openwebicons.icon-ofl-renaming:before { content: '\f04a'; }
+.ff-font-openwebicons.icon-ofl-selling:before { content: '\f04b'; }
+.ff-font-openwebicons.icon-ofl-embedding:before { content: '\f04c'; }
+.ff-font-openwebicons.icon-webmention:before { content: '\f04d'; }
+.ff-font-openwebicons.icon-javascript:before { content: '\f04e'; }
+.ff-font-openwebicons.icon-javascript-colored:before { content: '\f04e'; color: #f0db4f; }
+.ff-font-openwebicons.icon-wtfpl:before { content: '\f04f'; }

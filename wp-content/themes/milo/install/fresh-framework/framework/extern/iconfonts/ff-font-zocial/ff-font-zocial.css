@@ -1,0 +1,145 @@
+/**************************************
+---
+meta:
+author: Sam Collins
+homepage: http://zocial.smcllns.com/
+twitter: https://twitter.com/smcllns
+dribbble: http://dribbble.com/danielbruce
+github: https://github.com/samcollins/css-social-buttons/
+license: MIT
+license_url: http://opensource.org/licenses/mit-license.php
+css_prefix_text: "icon-"
+columns: 4
+font:
+fontname: zocial
+fullname: Zocial
+familyname: Zocial
+copyright: Copyright (C) 2012 by Sam Collins
+ascent: 850
+descent: -150
+weight: Medium
+
+**************************************/
+
+
+@font-face {
+	font-family: 'ff-font-zocial';
+	src: url('./ff-font-zocial.eot?v=4.0.3');
+	src: url('./ff-font-zocial.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-zocial.woff?v=4.0.3') format('woff'), url('./ff-font-zocial.ttf?v=4.0.3') format('truetype'), url('./ff-font-zocial.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-zocial {
+	display: inline-block;
+	font-family: 'ff-font-zocial';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff-font-zocial.icon-duckduckgo:before { content: '\21'; } /* duckduckgo */ 
+.ff-font-zocial.icon-aim:before { content: '\22'; } /* aol messenger */ 
+.ff-font-zocial.icon-delicious:before { content: '\23'; } /* delicious */ 
+.ff-font-zocial.icon-paypal:before { content: '\24'; } /* paypal */ 
+.ff-font-zocial.icon-flattr:before { content: '\25'; } /* flattr */ 
+.ff-font-zocial.icon-android:before { content: '\26'; } /* android */ 
+.ff-font-zocial.icon-eventful:before { content: '\27'; } /* eventful */ 
+.ff-font-zocial.icon-smashmag:before { content: '\2a'; } /* smashmag smashing */ 
+.ff-font-zocial.icon-gplus:before { content: '\2b'; } /* google plus */ 
+.ff-font-zocial.icon-wikipedia:before { content: '\2c'; } /* wikipedia */ 
+.ff-font-zocial.icon-lanyrd:before { content: '\2d'; } /* lanyrd */ 
+.ff-font-zocial.icon-calendar:before { content: '\2e'; } /* calendar */ 
+.ff-font-zocial.icon-stumbleupon:before { content: '\2f'; } /* stumbleupon */ 
+.ff-font-zocial.icon-fivehundredpx:before { content: '\30'; } /* fivehundredpx */ 
+.ff-font-zocial.icon-pinterest:before { content: '\31'; } /* pinterest */ 
+.ff-font-zocial.icon-bitcoin:before { content: '\32'; } /* bitcoin */ 
+.ff-font-zocial.icon-w3c:before { content: '\33'; } /* w3c */ 
+.ff-font-zocial.icon-foursquare:before { content: '\34'; } /* foursquare */ 
+.ff-font-zocial.icon-html5:before { content: '\35'; } /* html5 */ 
+.ff-font-zocial.icon-ie:before { content: '\36'; } /* ie explorer */ 
+.ff-font-zocial.icon-call:before { content: '\37'; } /* call */ 
+.ff-font-zocial.icon-grooveshark:before { content: '\38'; } /* grooveshark */ 
+.ff-font-zocial.icon-ninetyninedesigns:before { content: '\39'; } /* ninetyninedesigns */ 
+.ff-font-zocial.icon-forrst:before { content: '\3a'; } /* forrst */ 
+.ff-font-zocial.icon-digg:before { content: '\3b'; } /* digg */ 
+.ff-font-zocial.icon-spotify:before { content: '\3d'; } /* spotify */ 
+.ff-font-zocial.icon-reddit:before { content: '\3e'; } /* reddit */ 
+.ff-font-zocial.icon-guest:before { content: '\3f'; } /* guest */ 
+.ff-font-zocial.icon-gowalla:before { content: '\40'; } /* gowalla */ 
+.ff-font-zocial.icon-appstore:before { content: '\41'; } /* appstore */ 
+.ff-font-zocial.icon-blogger:before { content: '\42'; } /* blogger */ 
+.ff-font-zocial.icon-cc:before { content: '\43'; } /* creative commons */ 
+.ff-font-zocial.icon-dribbble:before { content: '\44'; } /* dribbble */ 
+.ff-font-zocial.icon-evernote:before { content: '\45'; } /* evernote */ 
+.ff-font-zocial.icon-flickr:before { content: '\46'; } /* flickr */ 
+.ff-font-zocial.icon-google:before { content: '\47'; } /* google */ 
+.ff-font-zocial.icon-viadeo:before { content: '\48'; } /* viadeo */ 
+.ff-font-zocial.icon-instapaper:before { content: '\49'; } /* instapaper */ 
+.ff-font-zocial.icon-weibo:before { content: '\4a'; } /* weibo */ 
+.ff-font-zocial.icon-klout:before { content: '\4b'; } /* klout */ 
+.ff-font-zocial.icon-linkedin:before { content: '\4c'; } /* linkedin */ 
+.ff-font-zocial.icon-meetup:before { content: '\4d'; } /* meetup */ 
+.ff-font-zocial.icon-vk:before { content: '\4e'; } /* vkontakte */ 
+.ff-font-zocial.icon-plancast:before { content: '\50'; } /* plancast */ 
+.ff-font-zocial.icon-disqus:before { content: '\51'; } /* disqus */ 
+.ff-font-zocial.icon-rss:before { content: '\52'; } /* rss */ 
+.ff-font-zocial.icon-skype:before { content: '\53'; } /* skype */ 
+.ff-font-zocial.icon-twitter:before { content: '\54'; } /* twitter */ 
+.ff-font-zocial.icon-youtube:before { content: '\55'; } /* youtube */ 
+.ff-font-zocial.icon-vimeo:before { content: '\56'; } /* vimeo */ 
+.ff-font-zocial.icon-windows:before { content: '\57'; } /* windows */ 
+.ff-font-zocial.icon-xing:before { content: '\58'; } /* xing */ 
+.ff-font-zocial.icon-yahoo:before { content: '\59'; } /* yahoo */ 
+.ff-font-zocial.icon-chrome:before { content: '\5b'; } /* chrome */ 
+.ff-font-zocial.icon-email:before { content: '\5d'; } /* email */ 
+.ff-font-zocial.icon-macstore:before { content: '\5e'; } /* macstore */ 
+.ff-font-zocial.icon-myspace:before { content: '\5f'; } /* myspace */ 
+.ff-font-zocial.icon-podcast:before { content: '\60'; } /* podcast */ 
+.ff-font-zocial.icon-amazon:before { content: '\61'; } /* amazon */ 
+.ff-font-zocial.icon-steam:before { content: '\62'; } /* steam */ 
+.ff-font-zocial.icon-cloudapp:before { content: '\63'; } /* cloudapp */ 
+.ff-font-zocial.icon-dropbox:before { content: '\64'; } /* dropbox */ 
+.ff-font-zocial.icon-ebay:before { content: '\65'; } /* ebay */ 
+.ff-font-zocial.icon-facebook:before { content: '\66'; } /* facebook */ 
+.ff-font-zocial.icon-github:before { content: '\67'; } /* github */ 
+.ff-font-zocial.icon-github-circled:before { content: '\E8'; } /* github */ 
+.ff-font-zocial.icon-googleplay:before { content: '\68'; } /* googleplay */ 
+.ff-font-zocial.icon-itunes:before { content: '\69'; } /* itunes */ 
+.ff-font-zocial.icon-plurk:before { content: '\6a'; } /* plurk */ 
+.ff-font-zocial.icon-songkick:before { content: '\6b'; } /* songkick */ 
+.ff-font-zocial.icon-lastfm:before { content: '\6c'; } /* lastfm */ 
+.ff-font-zocial.icon-gmail:before { content: '\6d'; } /* gmail */ 
+.ff-font-zocial.icon-pinboard:before { content: '\6e'; } /* pinboard */ 
+.ff-font-zocial.icon-openid:before { content: '\6f'; } /* openid */ 
+.ff-font-zocial.icon-quora:before { content: '\71'; } /* quora */ 
+.ff-font-zocial.icon-soundcloud:before { content: '\73'; } /* soundcloud */ 
+.ff-font-zocial.icon-tumblr:before { content: '\74'; } /* tumblr */ 
+.ff-font-zocial.icon-eventasaurus:before { content: '\76'; } /* eventasaurus */ 
+.ff-font-zocial.icon-wordpress:before { content: '\77'; } /* wordpress */ 
+.ff-font-zocial.icon-yelp:before { content: '\79'; } /* yelp */ 
+.ff-font-zocial.icon-intensedebate:before { content: '\7b'; } /* intensedebate */ 
+.ff-font-zocial.icon-eventbrite:before { content: '\7c'; } /* eventbrite */ 
+.ff-font-zocial.icon-scribd:before { content: '\7d'; } /* scribd */ 
+.ff-font-zocial.icon-posterous:before { content: '\7e'; } /* posterous */ 
+.ff-font-zocial.icon-stripe:before { content: '\a3'; } /* stripe */ 
+.ff-font-zocial.icon-opentable:before { content: '\c7'; } /* opentable */ 
+.ff-font-zocial.icon-cart:before { content: '\c9'; } /* cart basket */ 
+.ff-font-zocial.icon-print:before { content: '\d1'; } /* print */ 
+.ff-font-zocial.icon-angellist:before { content: '\d6'; } /* angellist */ 
+.ff-font-zocial.icon-instagram:before { content: '\dc'; } /* instagram */ 
+.ff-font-zocial.icon-dwolla:before { content: '\e0'; } /* dwolla */ 
+.ff-font-zocial.icon-appnet:before { content: '\e1'; } /* appnet */ 
+.ff-font-zocial.icon-statusnet:before { content: '\e2'; } /* statusnet */ 
+.ff-font-zocial.icon-acrobat:before { content: '\e3'; } /* acrobat */ 
+.ff-font-zocial.icon-drupal:before { content: '\e4'; } /* drupal */ 
+.ff-font-zocial.icon-buffer:before { content: '\e5'; } /* buffer */ 
+.ff-font-zocial.icon-pocket:before { content: '\e7'; } /* pocket */ 
+.ff-font-zocial.icon-bitbucket:before { content: '\e9'; } /* bitbucket */ 
+.ff-font-zocial.icon-lego:before { content: '\EA'; } /* lego */ 
+.ff-font-zocial.icon-login:before { content: '\EB'; } /* login */ 
+.ff-font-zocial.icon-stackoverflow:before { content: '\EC'; } /* stack overflow */ 
+.ff-font-zocial.icon-hackernews:before { content: '\Ed'; } /* hacker news */ 
+.ff-font-zocial.icon-lkdto:before { content: '\EE'; } /* lkdto */ 

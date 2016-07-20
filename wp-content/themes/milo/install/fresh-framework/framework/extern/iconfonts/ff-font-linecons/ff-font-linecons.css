@@ -1,0 +1,88 @@
+/**************************************
+---
+meta:
+author: Designmodo for Smashing Magazine
+homepage: http://designmodo.com/linecons-free/
+email: info@designmodo.com
+twitter: https://www.twitter.com/designmodo
+license: CC BY
+css_prefix_text: "icon-"
+columns: 4
+font:
+fontname: linecons
+fullname: Linecons
+familyname: Linecons
+copyright: Copyright (C) 2013 by Designmodo
+ascent: 850
+descent: -150
+weight: Normal
+
+**************************************/
+
+
+@font-face {
+	font-family: 'ff-font-linecons';
+	src: url('./ff-font-linecons.eot?v=4.0.3');
+	src: url('./ff-font-linecons.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-linecons.woff?v=4.0.3') format('woff'), url('./ff-font-linecons.ttf?v=4.0.3') format('truetype'), url('./ff-font-linecons.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-linecons {
+	display: inline-block;
+	font-family: 'ff-font-linecons';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff-font-linecons.icon-music:before { content: '\e022'; } /* music note song sound */ 
+.ff-font-linecons.icon-search:before { content: '\e009'; } /* search find */ 
+.ff-font-linecons.icon-mail:before { content: '\e019'; } /* mail email */ 
+.ff-font-linecons.icon-heart:before { content: '\e000'; } /* heart */ 
+.ff-font-linecons.icon-star:before { content: '\e002'; } /* star */ 
+.ff-font-linecons.icon-user:before { content: '\e007'; } /* profile contact user */ 
+.ff-font-linecons.icon-videocam:before { content: '\e005'; } /* facetime movie video film */ 
+.ff-font-linecons.icon-camera:before { content: '\e00b'; } /* camera photo */ 
+.ff-font-linecons.icon-photo:before { content: '\e01b'; } /* photo */ 
+.ff-font-linecons.icon-attach:before { content: '\e029'; } /* attach clip paperclip */ 
+.ff-font-linecons.icon-lock:before { content: '\e00d'; } /* lock close */ 
+.ff-font-linecons.icon-eye:before { content: '\e013'; } /* eye subscribe */ 
+.ff-font-linecons.icon-tag:before { content: '\e00c'; } /* tag category price offer */ 
+.ff-font-linecons.icon-thumbs-up:before { content: '\e01a'; } /* thumbs up like vote */ 
+.ff-font-linecons.icon-pencil:before { content: '\e00f'; } /* pencil write reply edit */ 
+.ff-font-linecons.icon-comment:before { content: '\e014'; } /* comment reply write chat */ 
+.ff-font-linecons.icon-location:before { content: '\e012'; } /* location mark marker */ 
+.ff-font-linecons.icon-cup:before { content: '\e016'; } /* cup */ 
+.ff-font-linecons.icon-trash:before { content: '\e006'; } /* trash delete */ 
+.ff-font-linecons.icon-doc:before { content: '\e018'; } /* doc article news */ 
+.ff-font-linecons.icon-note:before { content: '\e01c'; } /* doc note */ 
+.ff-font-linecons.icon-cog:before { content: '\e00a'; } /* settings cog gear params */ 
+.ff-font-linecons.icon-params:before { content: '\e01f'; } /* settings cog gear params */ 
+.ff-font-linecons.icon-calendar:before { content: '\e02b'; } /* calendar date */ 
+.ff-font-linecons.icon-sound:before { content: '\e004'; } /* volume sound */ 
+.ff-font-linecons.icon-clock:before { content: '\e01d'; } /* clock time */ 
+.ff-font-linecons.icon-lightbulb:before { content: '\e00e'; } /* idea lamp light */ 
+.ff-font-linecons.icon-tv:before { content: '\e003'; } /* */ 
+.ff-font-linecons.icon-desktop:before { content: '\e011'; } /* desktop screen monitor display */ 
+.ff-font-linecons.icon-mobile:before { content: '\e017'; } /* mobile phone */ 
+.ff-font-linecons.icon-cd:before { content: '\e02d'; } /* cd vynil */ 
+.ff-font-linecons.icon-inbox:before { content: '\e015'; } /* inbox stack */ 
+.ff-font-linecons.icon-globe:before { content: '\e02f'; } /* globe world */ 
+.ff-font-linecons.icon-cloud:before { content: '\e001'; } /* cloud */ 
+.ff-font-linecons.icon-paper-plane:before { content: '\e01e'; } /* paper plane fly */ 
+.ff-font-linecons.icon-fire:before { content: '\e028'; } /* fire */ 
+.ff-font-linecons.icon-graduation-cap:before { content: '\e024'; } /* graduation study */ 
+.ff-font-linecons.icon-megaphone:before { content: '\e023'; } /* megaphone bullhorn */ 
+.ff-font-linecons.icon-database:before { content: '\e021'; } /* data database */ 
+.ff-font-linecons.icon-key:before { content: '\e008'; } /* key */ 
+.ff-font-linecons.icon-beaker:before { content: '\e025'; } /* beaker */ 
+.ff-font-linecons.icon-truck:before { content: '\e02e'; } /* truck */ 
+.ff-font-linecons.icon-money:before { content: '\e020'; } /* money banknote */ 
+.ff-font-linecons.icon-food:before { content: '\e026'; } /* food */ 
+.ff-font-linecons.icon-shop:before { content: '\e02a'; } /* shop */ 
+.ff-font-linecons.icon-diamond:before { content: '\e010'; } /* diamond crystal */ 
+.ff-font-linecons.icon-t-shirt:before { content: '\e027'; } /* t-shirt */ 
+.ff-font-linecons.icon-wallet:before { content: '\e02c'; } /* wallet money */ 

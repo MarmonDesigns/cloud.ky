@@ -1,0 +1,129 @@
+/**************************************
+---
+meta:
+author: Just Be Nice studio
+homepage: http://www.justbenicestudio.com/
+email: yes@justbenice.ru
+license: SIL
+license_url: http://scripts.sil.org/OFL
+css_prefix_text: "icon-"
+columns: 4
+transform:
+baseline: 0.5
+rescale: 0.9
+offset: 0.05
+font:
+fontname: "websymbols"
+fullname: Web Symbols
+familyname: Web Symbols
+copyright: Copyright (c) 2011 by Just Be Nice studio. All rights reserved.
+ascent: 850
+descent: -150
+weight: Medium
+
+**************************************/
+
+
+@font-face {
+	font-family: 'ff-font-websymbols';
+	src: url('./ff-font-websymbols.eot?v=4.0.3');
+	src: url('./ff-font-websymbols.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-websymbols.woff?v=4.0.3') format('woff'), url('./ff-font-websymbols.ttf?v=4.0.3') format('truetype'), url('./ff-font-websymbols.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-websymbols {
+	display: inline-block;
+	font-family: 'ff-font-websymbols';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff-font-websymbols.icon-search:before { content: '\1f50d'; } /* search find */ 
+.ff-font-websymbols.icon-mail:before { content: '\2709'; } /* mail email */ 
+.ff-font-websymbols.icon-heart:before { content: '\2665'; } /* heart */ 
+.ff-font-websymbols.icon-heart-empty:before { content: '\2661'; } /* heart */ 
+.ff-font-websymbols.icon-star:before { content: '\2605'; } /* star */ 
+.ff-font-websymbols.icon-user:before { content: '\1f464'; } /* profile contact user */ 
+.ff-font-websymbols.icon-video:before { content: '\1f3ac'; } /* movie video film */ 
+.ff-font-websymbols.icon-picture:before { content: '\1f304'; } /* image picture photo */ 
+.ff-font-websymbols.icon-th-large:before { content: '\e708'; } /* image list thumbnails */ 
+.ff-font-websymbols.icon-th:before { content: '\268f'; } /* image list thumbnails */ 
+.ff-font-websymbols.icon-th-list:before { content: '\2630'; } /* list */ 
+.ff-font-websymbols.icon-ok:before { content: '\2713'; } /* ok yes check mark */ 
+.ff-font-websymbols.icon-ok-circle:before { content: '\2714'; } /* ok yes check mark */ 
+.ff-font-websymbols.icon-cancel:before { content: '\2715'; } /* close cancel reject */ 
+.ff-font-websymbols.icon-cancel-circle:before { content: '\2716'; } /* close cancel reject */ 
+.ff-font-websymbols.icon-plus-circle:before { content: '\2795'; } /* plus */ 
+.ff-font-websymbols.icon-minus-circle:before { content: '\2796'; } /* minus */ 
+.ff-font-websymbols.icon-link:before { content: '\1f517'; } /* link url address */ 
+.ff-font-websymbols.icon-attach:before { content: '\1f4ce'; } /* attach clip paperclip */ 
+.ff-font-websymbols.icon-lock:before { content: '\1f512'; } /* lock */ 
+.ff-font-websymbols.icon-lock-open:before { content: '\1f513'; } /* lock */ 
+.ff-font-websymbols.icon-tag:before { content: '\e70c'; } /* tag price offer */ 
+.ff-font-websymbols.icon-reply:before { content: '\e712'; } /* reply */ 
+.ff-font-websymbols.icon-reply-all:before { content: '\e713'; } /* reply */ 
+.ff-font-websymbols.icon-forward:before { content: '\27a6'; } /* forward */ 
+.ff-font-websymbols.icon-code:before { content: '\e714'; } /* code */ 
+.ff-font-websymbols.icon-retweet:before { content: '\e717'; } /* retweet twitter */ 
+.ff-font-websymbols.icon-comment:before { content: '\e718'; } /* comment reply write */ 
+.ff-font-websymbols.icon-comment-alt:before { content: '\e71a'; } /* comment reply write */ 
+.ff-font-websymbols.icon-chat:before { content: '\e720'; } /* chat talk */ 
+.ff-font-websymbols.icon-attention:before { content: '\26a0'; } /* attention warning alert */ 
+.ff-font-websymbols.icon-location:before { content: '\e724'; } /* location mark marker */ 
+.ff-font-websymbols.icon-doc:before { content: '\e730'; } /* doc article */ 
+.ff-font-websymbols.icon-docs-landscape:before { content: '\e737'; } /* doc article */ 
+.ff-font-websymbols.icon-folder:before { content: '\1f4c1'; } /* folder */ 
+.ff-font-websymbols.icon-archive:before { content: '\e738'; } /* archive */ 
+.ff-font-websymbols.icon-rss:before { content: '\e73a'; } /* rss */ 
+.ff-font-websymbols.icon-rss-alt:before { content: '\e73b'; } /* rss */ 
+.ff-font-websymbols.icon-cog:before { content: '\2699'; } /* settings cog gear */ 
+.ff-font-websymbols.icon-logout:before { content: '\e741'; } /* logout signout exit */ 
+.ff-font-websymbols.icon-clock:before { content: '\1f554'; } /* clock time */ 
+.ff-font-websymbols.icon-block:before { content: '\1f6ab'; } /* block deny */ 
+.ff-font-websymbols.icon-resize-full:before { content: '\e744'; } /* resize fullscreen */ 
+.ff-font-websymbols.icon-resize-full-circle:before { content: '\e7a6'; } /* resize fullscreen */ 
+.ff-font-websymbols.icon-popup:before { content: '\e74c'; } /* popup window */ 
+.ff-font-websymbols.icon-left-open:before { content: '\e75d'; } /* arrow left */ 
+.ff-font-websymbols.icon-right-open:before { content: '\e75e'; } /* arrow right */ 
+.ff-font-websymbols.icon-down-circle:before { content: '\e4a4'; } /* arrow down */ 
+.ff-font-websymbols.icon-left-circle:before { content: '\e4a1'; } /* arrow left */ 
+.ff-font-websymbols.icon-right-circle:before { content: '\e4a2'; } /* arrow right */ 
+.ff-font-websymbols.icon-up-circle:before { content: '\e4a3'; } /* arrow up */ 
+.ff-font-websymbols.icon-down-dir:before { content: '\25be'; } /* arrow down */ 
+.ff-font-websymbols.icon-right-dir:before { content: '\25b8'; } /* arrow right */ 
+.ff-font-websymbols.icon-down-micro:before { content: '\e7a7'; } /* arrow down */ 
+.ff-font-websymbols.icon-up-micro:before { content: '\e7a8'; } /* arrow right */ 
+.ff-font-websymbols.icon-cw-circle:before { content: '\e7a9'; } /* reload redo repeat */ 
+.ff-font-websymbols.icon-arrows-cw:before { content: '\e760'; } /* reload refresh update sync */ 
+.ff-font-websymbols.icon-updown-circle:before { content: '\e7aa'; } /* arrow move */ 
+.ff-font-websymbols.icon-target:before { content: '\1f3af'; } /* target */ 
+.ff-font-websymbols.icon-signal:before { content: '\1f4f6'; } /* chart bar diagram signal wifi */ 
+.ff-font-websymbols.icon-progress-0:before { content: '\0030'; } /* progress wait */ 
+.ff-font-websymbols.icon-progress-1:before { content: '\0031'; } /* progress wait */ 
+.ff-font-websymbols.icon-progress-2:before { content: '\0032'; } /* progress wait */ 
+.ff-font-websymbols.icon-progress-3:before { content: '\0033'; } /* progress wait */ 
+.ff-font-websymbols.icon-progress-4:before { content: '\0034'; } /* progress wait */ 
+.ff-font-websymbols.icon-progress-5:before { content: '\0035'; } /* progress wait */ 
+.ff-font-websymbols.icon-progress-6:before { content: '\0036'; } /* progress wait */ 
+.ff-font-websymbols.icon-progress-7:before { content: '\0037'; } /* progress wait */ 
+.ff-font-websymbols.icon-font:before { content: '\e779'; } /* editor font */ 
+.ff-font-websymbols.icon-list:before { content: '\e782'; } /* editor list */ 
+.ff-font-websymbols.icon-list-numbered:before { content: '\e7ad'; } /* editor list */ 
+.ff-font-websymbols.icon-indent-left:before { content: '\e783'; } /* editor indent */ 
+.ff-font-websymbols.icon-indent-right:before { content: '\e784'; } /* editor indent */ 
+.ff-font-websymbols.icon-cloud:before { content: '\2601'; } /* cloud */ 
+.ff-font-websymbols.icon-terminal:before { content: '\e7ac'; } /* terminal prompt */ 
+.ff-font-websymbols.icon-facebook-rect:before { content: '\f301'; } /* facebook */ 
+.ff-font-websymbols.icon-twitter-bird:before { content: '\f303'; } /* twitter */ 
+.ff-font-websymbols.icon-vimeo-rect:before { content: '\f30e'; } /* vimeo */ 
+.ff-font-websymbols.icon-tumblr-rect:before { content: '\f310'; } /* tumblr */ 
+.ff-font-websymbols.icon-googleplus-rect:before { content: '\f309'; } /* google */ 
+.ff-font-websymbols.icon-linkedin-rect:before { content: '\f312'; } /* linkedin */ 
+.ff-font-websymbols.icon-skype:before { content: '\f30b'; } /* skype */ 
+.ff-font-websymbols.icon-vkontakte-rect:before { content: '\f30a'; } /* vkontakte */ 
+.ff-font-websymbols.icon-youtube:before { content: '\f313'; }
+.ff-font-websymbols.icon-odnoklassniki-rect:before { content: '\f30d'; } /* odnoklassniki */ 

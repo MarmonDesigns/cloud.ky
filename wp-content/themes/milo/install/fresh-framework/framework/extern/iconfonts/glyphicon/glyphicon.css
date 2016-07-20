@@ -1,0 +1,235 @@
+/**************************************
+//
+// Glyphicons for Bootstrap
+//
+// Since icons are fonts, they can be placed anywhere text is placed and are
+// thus automatically sized to match the surrounding child. To use, create an
+// inline element with the appropriate classes, like so:
+//
+// <a href="#"><span class="glyphicon glyphicon-star"></span> Star</a>
+
+**************************************/
+
+/* Import the fonts */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../../bootstrap/fonts/glyphicons-halflings-regular.eot?v=4.0.3');
+  src: url('../../bootstrap/fonts/glyphicons-halflings-regular.eot?v=4.0.3') format('embedded-opentype'),
+       url('../../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../../bootstrap/fonts/glyphicons-halflings-regular.svg?v=4.0.3') format('svg');
+}
+
+/* Catchall baseclass */
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon.glyphicon-asterisk:before { content: '\2a'; }
+.glyphicon.glyphicon-plus:before { content: '\2b'; }
+.glyphicon.glyphicon-euro:before { content: '\20ac'; }
+.glyphicon.glyphicon-minus:before { content: '\2212'; }
+.glyphicon.glyphicon-cloud:before { content: '\2601'; }
+.glyphicon.glyphicon-envelope:before { content: '\2709'; }
+.glyphicon.glyphicon-pencil:before { content: '\270f'; }
+.glyphicon.glyphicon-glass:before { content: '\e001'; }
+.glyphicon.glyphicon-music:before { content: '\e002'; }
+.glyphicon.glyphicon-search:before { content: '\e003'; }
+.glyphicon.glyphicon-heart:before { content: '\e005'; }
+.glyphicon.glyphicon-star:before { content: '\e006'; }
+.glyphicon.glyphicon-star-empty:before { content: '\e007'; }
+.glyphicon.glyphicon-user:before { content: '\e008'; }
+.glyphicon.glyphicon-film:before { content: '\e009'; }
+.glyphicon.glyphicon-th-large:before { content: '\e010'; }
+.glyphicon.glyphicon-th:before { content: '\e011'; }
+.glyphicon.glyphicon-th-list:before { content: '\e012'; }
+.glyphicon.glyphicon-ok:before { content: '\e013'; }
+.glyphicon.glyphicon-remove:before { content: '\e014'; }
+.glyphicon.glyphicon-zoom-in:before { content: '\e015'; }
+.glyphicon.glyphicon-zoom-out:before { content: '\e016'; }
+.glyphicon.glyphicon-off:before { content: '\e017'; }
+.glyphicon.glyphicon-signal:before { content: '\e018'; }
+.glyphicon.glyphicon-cog:before { content: '\e019'; }
+.glyphicon.glyphicon-trash:before { content: '\e020'; }
+.glyphicon.glyphicon-home:before { content: '\e021'; }
+.glyphicon.glyphicon-file:before { content: '\e022'; }
+.glyphicon.glyphicon-time:before { content: '\e023'; }
+.glyphicon.glyphicon-road:before { content: '\e024'; }
+.glyphicon.glyphicon-download-alt:before { content: '\e025'; }
+.glyphicon.glyphicon-download:before { content: '\e026'; }
+.glyphicon.glyphicon-upload:before { content: '\e027'; }
+.glyphicon.glyphicon-inbox:before { content: '\e028'; }
+.glyphicon.glyphicon-play-circle:before { content: '\e029'; }
+.glyphicon.glyphicon-repeat:before { content: '\e030'; }
+.glyphicon.glyphicon-refresh:before { content: '\e031'; }
+.glyphicon.glyphicon-list-alt:before { content: '\e032'; }
+.glyphicon.glyphicon-lock:before { content: '\e033'; }
+.glyphicon.glyphicon-flag:before { content: '\e034'; }
+.glyphicon.glyphicon-headphones:before { content: '\e035'; }
+.glyphicon.glyphicon-volume-off:before { content: '\e036'; }
+.glyphicon.glyphicon-volume-down:before { content: '\e037'; }
+.glyphicon.glyphicon-volume-up:before { content: '\e038'; }
+.glyphicon.glyphicon-qrcode:before { content: '\e039'; }
+.glyphicon.glyphicon-barcode:before { content: '\e040'; }
+.glyphicon.glyphicon-tag:before { content: '\e041'; }
+.glyphicon.glyphicon-tags:before { content: '\e042'; }
+.glyphicon.glyphicon-book:before { content: '\e043'; }
+.glyphicon.glyphicon-bookmark:before { content: '\e044'; }
+.glyphicon.glyphicon-print:before { content: '\e045'; }
+.glyphicon.glyphicon-camera:before { content: '\e046'; }
+.glyphicon.glyphicon-font:before { content: '\e047'; }
+.glyphicon.glyphicon-bold:before { content: '\e048'; }
+.glyphicon.glyphicon-italic:before { content: '\e049'; }
+.glyphicon.glyphicon-text-height:before { content: '\e050'; }
+.glyphicon.glyphicon-text-width:before { content: '\e051'; }
+.glyphicon.glyphicon-align-left:before { content: '\e052'; }
+.glyphicon.glyphicon-align-center:before { content: '\e053'; }
+.glyphicon.glyphicon-align-right:before { content: '\e054'; }
+.glyphicon.glyphicon-align-justify:before { content: '\e055'; }
+.glyphicon.glyphicon-list:before { content: '\e056'; }
+.glyphicon.glyphicon-indent-left:before { content: '\e057'; }
+.glyphicon.glyphicon-indent-right:before { content: '\e058'; }
+.glyphicon.glyphicon-facetime-video:before { content: '\e059'; }
+.glyphicon.glyphicon-picture:before { content: '\e060'; }
+.glyphicon.glyphicon-map-marker:before { content: '\e062'; }
+.glyphicon.glyphicon-adjust:before { content: '\e063'; }
+.glyphicon.glyphicon-tint:before { content: '\e064'; }
+.glyphicon.glyphicon-edit:before { content: '\e065'; }
+.glyphicon.glyphicon-share:before { content: '\e066'; }
+.glyphicon.glyphicon-check:before { content: '\e067'; }
+.glyphicon.glyphicon-move:before { content: '\e068'; }
+.glyphicon.glyphicon-step-backward:before { content: '\e069'; }
+.glyphicon.glyphicon-fast-backward:before { content: '\e070'; }
+.glyphicon.glyphicon-backward:before { content: '\e071'; }
+.glyphicon.glyphicon-play:before { content: '\e072'; }
+.glyphicon.glyphicon-pause:before { content: '\e073'; }
+.glyphicon.glyphicon-stop:before { content: '\e074'; }
+.glyphicon.glyphicon-forward:before { content: '\e075'; }
+.glyphicon.glyphicon-fast-forward:before { content: '\e076'; }
+.glyphicon.glyphicon-step-forward:before { content: '\e077'; }
+.glyphicon.glyphicon-eject:before { content: '\e078'; }
+.glyphicon.glyphicon-chevron-left:before { content: '\e079'; }
+.glyphicon.glyphicon-chevron-right:before { content: '\e080'; }
+.glyphicon.glyphicon-plus-sign:before { content: '\e081'; }
+.glyphicon.glyphicon-minus-sign:before { content: '\e082'; }
+.glyphicon.glyphicon-remove-sign:before { content: '\e083'; }
+.glyphicon.glyphicon-ok-sign:before { content: '\e084'; }
+.glyphicon.glyphicon-question-sign:before { content: '\e085'; }
+.glyphicon.glyphicon-info-sign:before { content: '\e086'; }
+.glyphicon.glyphicon-screenshot:before { content: '\e087'; }
+.glyphicon.glyphicon-remove-circle:before { content: '\e088'; }
+.glyphicon.glyphicon-ok-circle:before { content: '\e089'; }
+.glyphicon.glyphicon-ban-circle:before { content: '\e090'; }
+.glyphicon.glyphicon-arrow-left:before { content: '\e091'; }
+.glyphicon.glyphicon-arrow-right:before { content: '\e092'; }
+.glyphicon.glyphicon-arrow-up:before { content: '\e093'; }
+.glyphicon.glyphicon-arrow-down:before { content: '\e094'; }
+.glyphicon.glyphicon-share-alt:before { content: '\e095'; }
+.glyphicon.glyphicon-resize-full:before { content: '\e096'; }
+.glyphicon.glyphicon-resize-small:before { content: '\e097'; }
+.glyphicon.glyphicon-exclamation-sign:before { content: '\e101'; }
+.glyphicon.glyphicon-gift:before { content: '\e102'; }
+.glyphicon.glyphicon-leaf:before { content: '\e103'; }
+.glyphicon.glyphicon-fire:before { content: '\e104'; }
+.glyphicon.glyphicon-eye-open:before { content: '\e105'; }
+.glyphicon.glyphicon-eye-close:before { content: '\e106'; }
+.glyphicon.glyphicon-warning-sign:before { content: '\e107'; }
+.glyphicon.glyphicon-plane:before { content: '\e108'; }
+.glyphicon.glyphicon-calendar:before { content: '\e109'; }
+.glyphicon.glyphicon-random:before { content: '\e110'; }
+.glyphicon.glyphicon-comment:before { content: '\e111'; }
+.glyphicon.glyphicon-magnet:before { content: '\e112'; }
+.glyphicon.glyphicon-chevron-up:before { content: '\e113'; }
+.glyphicon.glyphicon-chevron-down:before { content: '\e114'; }
+.glyphicon.glyphicon-retweet:before { content: '\e115'; }
+.glyphicon.glyphicon-shopping-cart:before { content: '\e116'; }
+.glyphicon.glyphicon-folder-close:before { content: '\e117'; }
+.glyphicon.glyphicon-folder-open:before { content: '\e118'; }
+.glyphicon.glyphicon-resize-vertical:before { content: '\e119'; }
+.glyphicon.glyphicon-resize-horizontal:before { content: '\e120'; }
+.glyphicon.glyphicon-hdd:before { content: '\e121'; }
+.glyphicon.glyphicon-bullhorn:before { content: '\e122'; }
+.glyphicon.glyphicon-bell:before { content: '\e123'; }
+.glyphicon.glyphicon-certificate:before { content: '\e124'; }
+.glyphicon.glyphicon-thumbs-up:before { content: '\e125'; }
+.glyphicon.glyphicon-thumbs-down:before { content: '\e126'; }
+.glyphicon.glyphicon-hand-right:before { content: '\e127'; }
+.glyphicon.glyphicon-hand-left:before { content: '\e128'; }
+.glyphicon.glyphicon-hand-up:before { content: '\e129'; }
+.glyphicon.glyphicon-hand-down:before { content: '\e130'; }
+.glyphicon.glyphicon-circle-arrow-right:before { content: '\e131'; }
+.glyphicon.glyphicon-circle-arrow-left:before { content: '\e132'; }
+.glyphicon.glyphicon-circle-arrow-up:before { content: '\e133'; }
+.glyphicon.glyphicon-circle-arrow-down:before { content: '\e134'; }
+.glyphicon.glyphicon-globe:before { content: '\e135'; }
+.glyphicon.glyphicon-wrench:before { content: '\e136'; }
+.glyphicon.glyphicon-tasks:before { content: '\e137'; }
+.glyphicon.glyphicon-filter:before { content: '\e138'; }
+.glyphicon.glyphicon-briefcase:before { content: '\e139'; }
+.glyphicon.glyphicon-fullscreen:before { content: '\e140'; }
+.glyphicon.glyphicon-dashboard:before { content: '\e141'; }
+.glyphicon.glyphicon-paperclip:before { content: '\e142'; }
+.glyphicon.glyphicon-heart-empty:before { content: '\e143'; }
+.glyphicon.glyphicon-link:before { content: '\e144'; }
+.glyphicon.glyphicon-phone:before { content: '\e145'; }
+.glyphicon.glyphicon-pushpin:before { content: '\e146'; }
+.glyphicon.glyphicon-usd:before { content: '\e148'; }
+.glyphicon.glyphicon-gbp:before { content: '\e149'; }
+.glyphicon.glyphicon-sort:before { content: '\e150'; }
+.glyphicon.glyphicon-sort-by-alphabet:before { content: '\e151'; }
+.glyphicon.glyphicon-sort-by-alphabet-alt:before { content: '\e152'; }
+.glyphicon.glyphicon-sort-by-order:before { content: '\e153'; }
+.glyphicon.glyphicon-sort-by-order-alt:before { content: '\e154'; }
+.glyphicon.glyphicon-sort-by-attributes:before { content: '\e155'; }
+.glyphicon.glyphicon-sort-by-attributes-alt:before { content: '\e156'; }
+.glyphicon.glyphicon-unchecked:before { content: '\e157'; }
+.glyphicon.glyphicon-expand:before { content: '\e158'; }
+.glyphicon.glyphicon-collapse-down:before { content: '\e159'; }
+.glyphicon.glyphicon-collapse-up:before { content: '\e160'; }
+.glyphicon.glyphicon-log-in:before { content: '\e161'; }
+.glyphicon.glyphicon-flash:before { content: '\e162'; }
+.glyphicon.glyphicon-log-out:before { content: '\e163'; }
+.glyphicon.glyphicon-new-window:before { content: '\e164'; }
+.glyphicon.glyphicon-record:before { content: '\e165'; }
+.glyphicon.glyphicon-save:before { content: '\e166'; }
+.glyphicon.glyphicon-open:before { content: '\e167'; }
+.glyphicon.glyphicon-saved:before { content: '\e168'; }
+.glyphicon.glyphicon-import:before { content: '\e169'; }
+.glyphicon.glyphicon-export:before { content: '\e170'; }
+.glyphicon.glyphicon-send:before { content: '\e171'; }
+.glyphicon.glyphicon-floppy-disk:before { content: '\e172'; }
+.glyphicon.glyphicon-floppy-saved:before { content: '\e173'; }
+.glyphicon.glyphicon-floppy-remove:before { content: '\e174'; }
+.glyphicon.glyphicon-floppy-save:before { content: '\e175'; }
+.glyphicon.glyphicon-floppy-open:before { content: '\e176'; }
+.glyphicon.glyphicon-credit-card:before { content: '\e177'; }
+.glyphicon.glyphicon-transfer:before { content: '\e178'; }
+.glyphicon.glyphicon-cutlery:before { content: '\e179'; }
+.glyphicon.glyphicon-header:before { content: '\e180'; }
+.glyphicon.glyphicon-compressed:before { content: '\e181'; }
+.glyphicon.glyphicon-earphone:before { content: '\e182'; }
+.glyphicon.glyphicon-phone-alt:before { content: '\e183'; }
+.glyphicon.glyphicon-tower:before { content: '\e184'; }
+.glyphicon.glyphicon-stats:before { content: '\e185'; }
+.glyphicon.glyphicon-sd-video:before { content: '\e186'; }
+.glyphicon.glyphicon-hd-video:before { content: '\e187'; }
+.glyphicon.glyphicon-subtitles:before { content: '\e188'; }
+.glyphicon.glyphicon-sound-stereo:before { content: '\e189'; }
+.glyphicon.glyphicon-sound-dolby:before { content: '\e190'; }
+.glyphicon.glyphicon-sound-5-1:before { content: '\e191'; }
+.glyphicon.glyphicon-sound-6-1:before { content: '\e192'; }
+.glyphicon.glyphicon-sound-7-1:before { content: '\e193'; }
+.glyphicon.glyphicon-copyright-mark:before { content: '\e194'; }
+.glyphicon.glyphicon-registration-mark:before { content: '\e195'; }
+.glyphicon.glyphicon-cloud-download:before { content: '\e197'; }
+.glyphicon.glyphicon-cloud-upload:before { content: '\e198'; }
+.glyphicon.glyphicon-tree-conifer:before { content: '\e199'; }
+.glyphicon.glyphicon-tree-deciduous:before { content: '\e200'; }

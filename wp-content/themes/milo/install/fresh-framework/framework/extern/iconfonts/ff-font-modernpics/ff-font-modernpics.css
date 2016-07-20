@@ -1,0 +1,134 @@
+/**************************************
+meta:
+author: John Caserta
+homepage: http://thedesignoffice.org/project/modern-pictograms/
+email: info@johncaserta.com
+twitter: https://twitter.com/johncaserta
+license: SIL
+license_url: http://scripts.sil.org/OFL
+css_prefix_text: "icon-"
+columns: 4
+transform:
+baseline: 0.5
+rescale: 1.25
+font:
+fontname: modernpics
+fullname: Modern Pictograms
+familyname: Modern Pictograms
+copyright: Copyright (c) 2012 by John Caserta. All rights reserved.
+ascent: 850
+descent: -150
+weight: Normal
+
+**************************************/
+
+
+@font-face {
+	font-family: 'ff-font-modernpics';
+	src: url('./ff-font-modernpics.eot?v=4.0.3');
+	src: url('./ff-font-modernpics.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-modernpics.woff?v=4.0.3') format('woff'), url('./ff-font-modernpics.ttf?v=4.0.3') format('truetype'), url('./ff-font-modernpics.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-modernpics {
+	display: inline-block;
+	font-family: 'ff-font-modernpics';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff-font-modernpics.icon-search:before { content: '\1f50d'; } /* search find */ 
+.ff-font-modernpics.icon-mail:before { content: '\2709'; } /* mail email */ 
+.ff-font-modernpics.icon-heart:before { content: '\2665'; } /* heart */ 
+.ff-font-modernpics.icon-star:before { content: '\2605'; } /* star */ 
+.ff-font-modernpics.icon-user:before { content: '\1f464'; } /* profile contact user */ 
+.ff-font-modernpics.icon-user-woman:before { content: '\1f469'; } /* profile contact user */ 
+.ff-font-modernpics.icon-user-pair:before { content: '\1f46b'; }
+.ff-font-modernpics.icon-video-alt:before { content: '\1f3a6'; } /* movie video film */ 
+.ff-font-modernpics.icon-videocam:before { content: '\1f3a5'; } /* facetime movie video film */ 
+.ff-font-modernpics.icon-videocam-alt:before { content: '\1f3f9'; } /* movie video film */ 
+.ff-font-modernpics.icon-camera:before { content: '\1f4f7'; } /* camera photo */ 
+.ff-font-modernpics.icon-th:before { content: '\268f'; } /* image list thumbnails */ 
+.ff-font-modernpics.icon-th-list:before { content: '\2630'; } /* list */ 
+.ff-font-modernpics.icon-ok:before { content: '\2713'; } /* ok yes check mark */ 
+.ff-font-modernpics.icon-cancel:before { content: '\2715'; } /* close cancel reject */ 
+.ff-font-modernpics.icon-cancel-circle:before { content: '\2716'; } /* close cancel reject */ 
+.ff-font-modernpics.icon-plus:before { content: '\002b'; } /* plus */ 
+.ff-font-modernpics.icon-home:before { content: '\2302'; } /* home */ 
+.ff-font-modernpics.icon-lock:before { content: '\1f512'; } /* lock */ 
+.ff-font-modernpics.icon-lock-open:before { content: '\1f513'; } /* lock unlock */ 
+.ff-font-modernpics.icon-eye:before { content: '\e70a'; } /* eye subscribe */ 
+.ff-font-modernpics.icon-tag:before { content: '\e70c'; } /* tag category price offer */ 
+.ff-font-modernpics.icon-thumbs-up:before { content: '\1f44d'; } /* thumbs up like vote */ 
+.ff-font-modernpics.icon-thumbs-down:before { content: '\1f44e'; } /* thumbs down unlike vote */ 
+.ff-font-modernpics.icon-download:before { content: '\1f4e5'; } /* download */ 
+.ff-font-modernpics.icon-export:before { content: '\e715'; } /* export share */ 
+.ff-font-modernpics.icon-pencil:before { content: '\270e'; } /* pencil write reply edit */ 
+.ff-font-modernpics.icon-pencil-alt:before { content: '\2710'; } /* pencil write reply edit */ 
+.ff-font-modernpics.icon-edit:before { content: '\270d'; } /* pencil write reply edit */ 
+.ff-font-modernpics.icon-chat:before { content: '\e720'; } /* chat talk */ 
+.ff-font-modernpics.icon-print:before { content: '\e716'; } /* print */ 
+.ff-font-modernpics.icon-bell:before { content: '\1f514'; } /* alert bell jingle */ 
+.ff-font-modernpics.icon-attention:before { content: '\26a0'; } /* attention warning alert */ 
+.ff-font-modernpics.icon-info:before { content: '\3d'; } /* info */ 
+.ff-font-modernpics.icon-question:before { content: '\3f'; } /* question help */ 
+.ff-font-modernpics.icon-location:before { content: '\e724'; } /* location mark marker */ 
+.ff-font-modernpics.icon-trash:before { content: '\e729'; } /* trash delete */ 
+.ff-font-modernpics.icon-doc:before { content: '\1f4c4'; } /* doc article */ 
+.ff-font-modernpics.icon-article:before { content: '\e734'; } /* document article */ 
+.ff-font-modernpics.icon-article-alt:before { content: '\e735'; } /* document article */ 
+.ff-font-modernpics.icon-rss:before { content: '\e73a'; } /* rss */ 
+.ff-font-modernpics.icon-wrench:before { content: '\1f527'; } /* settings wrench */ 
+.ff-font-modernpics.icon-basket:before { content: '\e73d'; } /* basket shopping cart */ 
+.ff-font-modernpics.icon-basket-alt:before { content: '\e7ae'; } /* basket shopping cart */ 
+.ff-font-modernpics.icon-calendar:before { content: '\1f4c5'; } /* calendar date */ 
+.ff-font-modernpics.icon-calendar-alt:before { content: '\e73e'; } /* calendar date */ 
+.ff-font-modernpics.icon-volume-off:before { content: '\1f507'; } /* volume sound mute */ 
+.ff-font-modernpics.icon-volume-down:before { content: '\1f509'; } /* volume sound */ 
+.ff-font-modernpics.icon-volume-up:before { content: '\1f50a'; } /* volume sound */ 
+.ff-font-modernpics.icon-bullhorn:before { content: '\1f4e3'; } /* bullhorn loudspeaker */ 
+.ff-font-modernpics.icon-clock:before { content: '\1f554'; } /* clock time */ 
+.ff-font-modernpics.icon-clock-alt:before { content: '\1f553'; } /* clock time */ 
+.ff-font-modernpics.icon-stop:before { content: '\e7b3'; } /* stop block cancel */ 
+.ff-font-modernpics.icon-resize-full:before { content: '\e744'; } /* resize fullscreen */ 
+.ff-font-modernpics.icon-resize-small:before { content: '\e746'; } /* resize */ 
+.ff-font-modernpics.icon-zoom-in:before { content: '\e750'; } /* zoom. scale in */ 
+.ff-font-modernpics.icon-zoom-out:before { content: '\e751'; } /* zoom. scale out */ 
+.ff-font-modernpics.icon-popup:before { content: '\e74c'; } /* popup window */ 
+.ff-font-modernpics.icon-down-dir:before { content: '\25be'; } /* arrow down */ 
+.ff-font-modernpics.icon-left-dir:before { content: '\25c2'; } /* arrow left */ 
+.ff-font-modernpics.icon-right-dir:before { content: '\25b8'; } /* arrow right */ 
+.ff-font-modernpics.icon-up-dir:before { content: '\25b4'; } /* arrow up */ 
+.ff-font-modernpics.icon-down:before { content: '\2193'; } /* arrow down */ 
+.ff-font-modernpics.icon-up:before { content: '\2191'; } /* arrow up */ 
+.ff-font-modernpics.icon-cw:before { content: '\27f3'; } /* reload redo repeat */ 
+.ff-font-modernpics.icon-signal:before { content: '\e770'; } /* broadcast wifi signal */ 
+.ff-font-modernpics.icon-award:before { content: '\1f3c9'; } /* top trophy prize award */ 
+.ff-font-modernpics.icon-mobile:before { content: '\1f4f1'; } /* mobile iphone */ 
+.ff-font-modernpics.icon-mobile-alt:before { content: '\e7b0'; } /* mobile iphone */ 
+.ff-font-modernpics.icon-tablet:before { content: '\e7b1'; } /* tablet */ 
+.ff-font-modernpics.icon-ipod:before { content: '\e7b2'; } /* player ipod */ 
+.ff-font-modernpics.icon-cd:before { content: '\1f4bf'; } /* cd vinyl */ 
+.ff-font-modernpics.icon-grid:before { content: '\e7b4'; } /* grid table */ 
+.ff-font-modernpics.icon-book:before { content: '\1f4d5'; } /* book */ 
+.ff-font-modernpics.icon-easel:before { content: '\e7b5'; } /* easel stand */ 
+.ff-font-modernpics.icon-globe:before { content: '\1f310'; } /* globe */ 
+.ff-font-modernpics.icon-chart:before { content: '\1f4c8'; } /* chart pie diagram */ 
+.ff-font-modernpics.icon-chart-bar:before { content: '\1f4ca'; } /* chart bar diagram */ 
+.ff-font-modernpics.icon-chart-pie:before { content: '\e7a2'; } /* chart pie diagram */ 
+.ff-font-modernpics.icon-dollar:before { content: '\1f4b5'; } /* money dollar */ 
+.ff-font-modernpics.icon-at:before { content: '\0040'; } /* "@" "at" */ 
+.ff-font-modernpics.icon-colon:before { content: '\003a'; } /* colon */ 
+.ff-font-modernpics.icon-semicolon:before { content: '\003b'; } /* semicolon */ 
+.ff-font-modernpics.icon-squares:before { content: '\29c9'; } /* squares */ 
+.ff-font-modernpics.icon-money:before { content: '\24'; } /* money dollar */ 
+.ff-font-modernpics.icon-facebook:before { content: '\f300'; } /* facebook */ 
+.ff-font-modernpics.icon-facebook-rect:before { content: '\f301'; } /* facebook */ 
+.ff-font-modernpics.icon-twitter:before { content: '\f302'; } /* twitter */ 
+.ff-font-modernpics.icon-twitter-bird:before { content: '\f303'; } /* twitter */ 
+.ff-font-modernpics.icon-twitter-rect:before { content: '\f314'; } /* twitter */ 
+.ff-font-modernpics.icon-youtube:before { content: '\f315'; } /* twitter */ 

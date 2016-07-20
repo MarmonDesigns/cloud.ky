@@ -1,0 +1,4 @@
+
+$s->addOption( ffOneOption::TYPE_SELECT, 'id', 'Title', 'value')
+	->addSelectValue('name','value')
+	;

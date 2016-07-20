@@ -1,0 +1,134 @@
+/**************************************
+---
+meta:
+author: Erik Flowers
+homepage: http://erikflowers.github.io/weather-icons/
+email: erik@helloerik.com
+twitter: Erik_UX
+github: https://github.com/erikflowers/weather-icons
+license: SIL
+license_url: http://scripts.sil.org/OFL
+css_prefix_text: icon-
+columns: 4
+font:
+version: 1.0
+fontname: weathercons
+fullname: Weather Icons
+familyname: Weather Icons
+copyright: Copyright (C) 2013 by Dyaa Eldin Moustafa and Erik Flowers
+ascent: 850
+descent: 150
+weight: Regular
+
+**************************************/
+
+
+@font-face {
+	font-family: 'ff-font-weathercons';
+	src: url('./ff-font-weathercons.eot?v=4.0.3');
+	src: url('./ff-font-weathercons.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-weathercons.woff?v=4.0.3') format('woff'), url('./ff-font-weathercons.ttf?v=4.0.3') format('truetype'), url('./ff-font-weathercons.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-weathercons {
+	display: inline-block;
+	font-family: 'ff-font-weathercons';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff-font-weathercons.icon-day-cloudy-gusts:before { content: '\e800'; } /* day cloudy gusts wind windy */ 
+.ff-font-weathercons.icon-day-cloudy-windy:before { content: '\e801'; } /* day cloudy wind windy */ 
+.ff-font-weathercons.icon-day-cloudy:before { content: '\e802'; } /* day cloud cloudy clouds */ 
+.ff-font-weathercons.icon-day-fog:before { content: '\e803'; } /* day fog foggy */ 
+.ff-font-weathercons.icon-day-hail:before { content: '\e804'; } /* day hail hailing */ 
+.ff-font-weathercons.icon-day-lightning:before { content: '\e805'; } /* day storm lightning */ 
+.ff-font-weathercons.icon-day-rain-mix:before { content: '\e806'; } /* day rain mix storm */ 
+.ff-font-weathercons.icon-day-rain-wind:before { content: '\e807'; } /* day rain wind rainy windy */ 
+.ff-font-weathercons.icon-day-rain:before { content: '\e808'; } /* day rain rainy */ 
+.ff-font-weathercons.icon-day-showers:before { content: '\e809'; } /* day showers storm rain */ 
+.ff-font-weathercons.icon-day-snow:before { content: '\e80a'; } /* day snow storm */ 
+.ff-font-weathercons.icon-day-sprinkle:before { content: '\e812'; } /* day sprinkle rain */ 
+.ff-font-weathercons.icon-day-sunny-overcast:before { content: '\e811'; } /* day sunny overcast partly cloudy */ 
+.ff-font-weathercons.icon-day-sunny:before { content: '\e810'; } /* day sun sunny */ 
+.ff-font-weathercons.icon-day-storm-showers:before { content: '\e80f'; } /* day storm showers rain */ 
+.ff-font-weathercons.icon-day-thunderstorm:before { content: '\e80e'; } /* day thunder thunderstorm storm */ 
+.ff-font-weathercons.icon-cloudy-gusts:before { content: '\e80d'; } /* cloudy gusts wind windy */ 
+.ff-font-weathercons.icon-cloudy-windy:before { content: '\e80c'; } /* cloudy windy gusts */ 
+.ff-font-weathercons.icon-cloudy:before { content: '\e80b'; } /* clouds cloudy */ 
+.ff-font-weathercons.icon-fog:before { content: '\e813'; } /* fog foggy */ 
+.ff-font-weathercons.icon-hail:before { content: '\e814'; } /* hail hailing */ 
+.ff-font-weathercons.icon-lightning:before { content: '\e815'; } /* lightning storm */ 
+.ff-font-weathercons.icon-rain-mix-1:before { content: '\e816'; } /* rain mix showers */ 
+.ff-font-weathercons.icon-rain-wind:before { content: '\e817'; } /* rain wind storm gusts */ 
+.ff-font-weathercons.icon-rain:before { content: '\e818'; } /* rain showers */ 
+.ff-font-weathercons.icon-showers:before { content: '\e819'; } /* showers storm rain */ 
+.ff-font-weathercons.icon-snow:before { content: '\e81a'; } /* snow storm */ 
+.ff-font-weathercons.icon-sprinkle:before { content: '\e81b'; } /* sprinkle light rain */ 
+.ff-font-weathercons.icon-storm-showers:before { content: '\e81c'; } /* storm showers */ 
+.ff-font-weathercons.icon-thunderstorm:before { content: '\e81d'; } /* thunder storm */ 
+.ff-font-weathercons.icon-windy:before { content: '\e81e'; } /* wind breeze */ 
+.ff-font-weathercons.icon-night-alt-cloudy-gusts:before { content: '\e81f'; } /* night cloudy gusts */ 
+.ff-font-weathercons.icon-night-alt-cloudy-windy:before { content: '\e820'; } /* night alt cloudy windy */ 
+.ff-font-weathercons.icon-night-alt-hail:before { content: '\e821'; } /* night hail storm */ 
+.ff-font-weathercons.icon-night-alt-lightning:before { content: '\e822'; } /* night lightning storm */ 
+.ff-font-weathercons.icon-night-alt-rain-mix:before { content: '\e823'; } /* night rain mix alt */ 
+.ff-font-weathercons.icon-night-alt-rain-wind:before { content: '\e824'; } /* night rain wind alt */ 
+.ff-font-weathercons.icon-night-alt-rain:before { content: '\e825'; } /* night rain */ 
+.ff-font-weathercons.icon-night-alt-showers:before { content: '\e826'; } /* night showers */ 
+.ff-font-weathercons.icon-night-alt-snow:before { content: '\e838'; } /* night snow */ 
+.ff-font-weathercons.icon-night-alt-sprinkle:before { content: '\e839'; } /* night rain sprinkle */ 
+.ff-font-weathercons.icon-night-alt-storm-showers:before { content: '\e83a'; } /* night storm showers rain */ 
+.ff-font-weathercons.icon-night-alt-thunderstorm:before { content: '\e836'; } /* night thunderstorm alt storm */ 
+.ff-font-weathercons.icon-night-clear:before { content: '\e837'; } /* night clear */ 
+.ff-font-weathercons.icon-night-cloudy-gusts:before { content: '\e835'; } /* night cloudy gusts wind */ 
+.ff-font-weathercons.icon-night-cloudy-windy:before { content: '\e834'; } /* night cloudy windy gusts */ 
+.ff-font-weathercons.icon-night-cloud:before { content: '\e833'; } /* night cloud overcast */ 
+.ff-font-weathercons.icon-night-hail:before { content: '\e832'; } /* night hail storm */ 
+.ff-font-weathercons.icon-night-lightning:before { content: '\e831'; } /* night lightning storm */ 
+.ff-font-weathercons.icon-night-rain-mix:before { content: '\e830'; } /* night rain mix storm */ 
+.ff-font-weathercons.icon-night-rain-wind:before { content: '\e82f'; } /* night rain showers wind */ 
+.ff-font-weathercons.icon-night-rain:before { content: '\e82e'; } /* night rain showers storm */ 
+.ff-font-weathercons.icon-night-showers:before { content: '\e82d'; } /* night showers rain storm */ 
+.ff-font-weathercons.icon-night-snow:before { content: '\e82c'; } /* night snow */ 
+.ff-font-weathercons.icon-night-sprinkle:before { content: '\e82b'; } /* night sprinkle rain */ 
+.ff-font-weathercons.icon-night-storm-showers:before { content: '\e82a'; } /* night storm showers */ 
+.ff-font-weathercons.icon-night-thunderstorm:before { content: '\e829'; } /* night thunderstorm */ 
+.ff-font-weathercons.icon-celcius:before { content: '\e828'; } /* celcius degrees temperature */ 
+.ff-font-weathercons.icon-cloud-down:before { content: '\e827'; } /* cloud overcast down */ 
+.ff-font-weathercons.icon-cloud-refresh:before { content: '\e83b'; } /* cloud overcast refresh */ 
+.ff-font-weathercons.icon-cloud-up:before { content: '\e83c'; } /* cloud overcast up */ 
+.ff-font-weathercons.icon-cloud:before { content: '\e83d'; } /* cloud overcast */ 
+.ff-font-weathercons.icon-degrees:before { content: '\e83e'; } /* degrees temperature farenheit celsius */ 
+.ff-font-weathercons.icon-down-left:before { content: '\e83f'; } /* down left */ 
+.ff-font-weathercons.icon-down:before { content: '\e840'; } /* down */ 
+.ff-font-weathercons.icon-fahrenheit:before { content: '\e841'; } /* fahrenheit temperature degrees */ 
+.ff-font-weathercons.icon-horizon-alt:before { content: '\e842'; } /* horizon alt */ 
+.ff-font-weathercons.icon-horizon:before { content: '\e843'; } /* horizon */ 
+.ff-font-weathercons.icon-left:before { content: '\e844'; } /* left */ 
+.ff-font-weathercons.icon-night-fog:before { content: '\e845'; } /* night fog */ 
+.ff-font-weathercons.icon-refresh-alt:before { content: '\e846'; } /* refresh alt */ 
+.ff-font-weathercons.icon-refresh:before { content: '\e847'; } /* refresh */ 
+.ff-font-weathercons.icon-right:before { content: '\e848'; } /* right */ 
+.ff-font-weathercons.icon-sprinkles:before { content: '\e849'; } /* sprinkles rain */ 
+.ff-font-weathercons.icon-strong-wind:before { content: '\e84a'; } /* strong wind */ 
+.ff-font-weathercons.icon-sunrise:before { content: '\e84b'; } /* sunrise sun morning */ 
+.ff-font-weathercons.icon-sunset:before { content: '\e84c'; } /* sun sunset twilight */ 
+.ff-font-weathercons.icon-thermometer-exterior:before { content: '\e84d'; } /* thermometer exterior temperature */ 
+.ff-font-weathercons.icon-thermometer-interior:before { content: '\e84e'; } /* thermometer interior temperature */ 
+.ff-font-weathercons.icon-thermometer:before { content: '\e84f'; } /* thermometer temperature */ 
+.ff-font-weathercons.icon-tornado:before { content: '\e850'; } /* tornado warning */ 
+.ff-font-weathercons.icon-up-right:before { content: '\e851'; } /* up right */ 
+.ff-font-weathercons.icon-up:before { content: '\e852'; } /* up */ 
+.ff-font-weathercons.icon-wind-west:before { content: '\e853'; } /* wind west */ 
+.ff-font-weathercons.icon-wind-south-west:before { content: '\e854'; } /* wind south west */ 
+.ff-font-weathercons.icon-wind-south-east:before { content: '\e855'; } /* wind south east */ 
+.ff-font-weathercons.icon-wind-south:before { content: '\e856'; } /* wind south */ 
+.ff-font-weathercons.icon-wind-north-west:before { content: '\e857'; } /* wind north west */ 
+.ff-font-weathercons.icon-wind-north-east:before { content: '\e858'; } /* wind north east */ 
+.ff-font-weathercons.icon-wind-north:before { content: '\e85a'; } /* wind north */ 
+.ff-font-weathercons.icon-wind-east:before { content: '\e859'; } /* wind east */ 

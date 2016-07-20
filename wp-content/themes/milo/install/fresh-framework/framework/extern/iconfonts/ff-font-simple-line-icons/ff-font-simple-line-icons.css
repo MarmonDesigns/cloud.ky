@@ -1,0 +1,185 @@
+/**************************************
+To see original (not modified icons) - see http://graphicburger.com/simple-line-icons-webfont/
+Licence: MIT
+**************************************/
+
+@font-face {
+	font-family: 'ff-font-simple-line-icons';
+	src: url('./ff-font-simple-line-icons.eot');
+	src: url('./ff-font-simple-line-icons.eot?#iefix') format('embedded-opentype'), url('./ff-font-simple-line-icons.woff') format('woff'), url('./ff-font-simple-line-icons.ttf') format('truetype'), url('./ff-font-simple-line-icons.svg#openweb_iconsregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-simple-line-icons { display: inline-block;
+	font-family: 'ff-font-simple-line-icons';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff-font-simple-line-icons.icon-user-female:before { content: '\e000'; }
+.ff-font-simple-line-icons.icon-user-follow:before { content: '\e002'; }
+.ff-font-simple-line-icons.icon-user-following:before { content: '\e003'; }
+.ff-font-simple-line-icons.icon-user-unfollow:before { content: '\e004'; }
+.ff-font-simple-line-icons.icon-trophy:before { content: '\e006'; }
+.ff-font-simple-line-icons.icon-screen-smartphone:before { content: '\e010'; }
+.ff-font-simple-line-icons.icon-screen-desktop:before { content: '\e011'; }
+.ff-font-simple-line-icons.icon-plane:before { content: '\e012'; }
+.ff-font-simple-line-icons.icon-notebook:before { content: '\e013'; }
+.ff-font-simple-line-icons.icon-moustache:before { content: '\e014'; }
+.ff-font-simple-line-icons.icon-mouse:before { content: '\e015'; }
+.ff-font-simple-line-icons.icon-magnet:before { content: '\e016'; }
+.ff-font-simple-line-icons.icon-energy:before { content: '\e020'; }
+.ff-font-simple-line-icons.icon-emoticon-smile:before { content: '\e021'; }
+.ff-font-simple-line-icons.icon-disc:before { content: '\e022'; }
+.ff-font-simple-line-icons.icon-cursor-move:before { content: '\e023'; }
+.ff-font-simple-line-icons.icon-crop:before { content: '\e024'; }
+.ff-font-simple-line-icons.icon-credit-card:before { content: '\e025'; }
+.ff-font-simple-line-icons.icon-chemistry:before { content: '\e026'; }
+.ff-font-simple-line-icons.icon-user:before { content: '\e005'; }
+.ff-font-simple-line-icons.icon-speedometer:before { content: '\e007'; }
+.ff-font-simple-line-icons.icon-social-youtube:before { content: '\e008'; }
+.ff-font-simple-line-icons.icon-social-twitter:before { content: '\e009'; }
+.ff-font-simple-line-icons.icon-social-tumblr:before { content: '\e00a'; }
+.ff-font-simple-line-icons.icon-social-facebook:before { content: '\e00b'; }
+.ff-font-simple-line-icons.icon-social-dropbox:before { content: '\e00c'; }
+.ff-font-simple-line-icons.icon-social-dribbble:before { content: '\e00d'; }
+.ff-font-simple-line-icons.icon-shield:before { content: '\e00e'; }
+.ff-font-simple-line-icons.icon-screen-tablet:before { content: '\e00f'; }
+.ff-font-simple-line-icons.icon-magic-wand:before { content: '\e017'; }
+.ff-font-simple-line-icons.icon-hourglass:before { content: '\e018'; }
+.ff-font-simple-line-icons.icon-graduation:before { content: '\e019'; }
+.ff-font-simple-line-icons.icon-ghost:before { content: '\e01a'; }
+.ff-font-simple-line-icons.icon-game-controller:before { content: '\e01b'; }
+.ff-font-simple-line-icons.icon-fire:before { content: '\e01c'; }
+.ff-font-simple-line-icons.icon-eyeglasses:before { content: '\e01d'; }
+.ff-font-simple-line-icons.icon-envelope-open:before { content: '\e01e'; }
+.ff-font-simple-line-icons.icon-envelope-letter:before { content: '\e01f'; }
+.ff-font-simple-line-icons.icon-bell:before { content: '\e027'; }
+.ff-font-simple-line-icons.icon-badge:before { content: '\e028'; }
+.ff-font-simple-line-icons.icon-anchor:before { content: '\e029'; }
+.ff-font-simple-line-icons.icon-wallet:before { content: '\e02a'; }
+.ff-font-simple-line-icons.icon-vector:before { content: '\e02b'; }
+.ff-font-simple-line-icons.icon-speech:before { content: '\e02c'; }
+.ff-font-simple-line-icons.icon-puzzle:before { content: '\e02d'; }
+.ff-font-simple-line-icons.icon-printer:before { content: '\e02e'; }
+.ff-font-simple-line-icons.icon-present:before { content: '\e02f'; }
+.ff-font-simple-line-icons.icon-playlist:before { content: '\e030'; }
+.ff-font-simple-line-icons.icon-pin:before { content: '\e031'; }
+.ff-font-simple-line-icons.icon-picture:before { content: '\e032'; }
+.ff-font-simple-line-icons.icon-map:before { content: '\e033'; }
+.ff-font-simple-line-icons.icon-layers:before { content: '\e034'; }
+.ff-font-simple-line-icons.icon-handbag:before { content: '\e035'; }
+.ff-font-simple-line-icons.icon-globe-alt:before { content: '\e036'; }
+.ff-font-simple-line-icons.icon-globe:before { content: '\e037'; }
+.ff-font-simple-line-icons.icon-frame:before { content: '\e038'; }
+.ff-font-simple-line-icons.icon-folder-alt:before { content: '\e039'; }
+.ff-font-simple-line-icons.icon-film:before { content: '\e03a'; }
+.ff-font-simple-line-icons.icon-feed:before { content: '\e03b'; }
+.ff-font-simple-line-icons.icon-earphones-alt:before { content: '\e03c'; }
+.ff-font-simple-line-icons.icon-earphones:before { content: '\e03d'; }
+.ff-font-simple-line-icons.icon-drop:before { content: '\e03e'; }
+.ff-font-simple-line-icons.icon-drawer:before { content: '\e03f'; }
+.ff-font-simple-line-icons.icon-docs:before { content: '\e040'; }
+.ff-font-simple-line-icons.icon-directions:before { content: '\e041'; }
+.ff-font-simple-line-icons.icon-direction:before { content: '\e042'; }
+.ff-font-simple-line-icons.icon-diamond:before { content: '\e043'; }
+.ff-font-simple-line-icons.icon-cup:before { content: '\e044'; }
+.ff-font-simple-line-icons.icon-compass:before { content: '\e045'; }
+.ff-font-simple-line-icons.icon-call-out:before { content: '\e046'; }
+.ff-font-simple-line-icons.icon-call-in:before { content: '\e047'; }
+.ff-font-simple-line-icons.icon-call-end:before { content: '\e048'; }
+.ff-font-simple-line-icons.icon-calculator:before { content: '\e049'; }
+.ff-font-simple-line-icons.icon-bubbles:before { content: '\e04a'; }
+.ff-font-simple-line-icons.icon-briefcase:before { content: '\e04b'; }
+.ff-font-simple-line-icons.icon-book-open:before { content: '\e04c'; }
+.ff-font-simple-line-icons.icon-basket-loaded:before { content: '\e04d'; }
+.ff-font-simple-line-icons.icon-basket:before { content: '\e04e'; }
+.ff-font-simple-line-icons.icon-bag:before { content: '\e04f'; }
+.ff-font-simple-line-icons.icon-action-undo:before { content: '\e050'; }
+.ff-font-simple-line-icons.icon-action-redo:before { content: '\e051'; }
+.ff-font-simple-line-icons.icon-wrench:before { content: '\e052'; }
+.ff-font-simple-line-icons.icon-umbrella:before { content: '\e053'; }
+.ff-font-simple-line-icons.icon-trash:before { content: '\e054'; }
+.ff-font-simple-line-icons.icon-tag:before { content: '\e055'; }
+.ff-font-simple-line-icons.icon-support:before { content: '\e056'; }
+.ff-font-simple-line-icons.icon-size-fullscreen:before { content: '\e057'; }
+.ff-font-simple-line-icons.icon-size-actual:before { content: '\e058'; }
+.ff-font-simple-line-icons.icon-shuffle:before { content: '\e059'; }
+.ff-font-simple-line-icons.icon-share-alt:before { content: '\e05a'; }
+.ff-font-simple-line-icons.icon-share:before { content: '\e05b'; }
+.ff-font-simple-line-icons.icon-rocket:before { content: '\e05c'; }
+.ff-font-simple-line-icons.icon-question:before { content: '\e05d'; }
+.ff-font-simple-line-icons.icon-pie-chart:before { content: '\e05e'; }
+.ff-font-simple-line-icons.icon-pencil:before { content: '\e05f'; }
+.ff-font-simple-line-icons.icon-note:before { content: '\e060'; }
+.ff-font-simple-line-icons.icon-music-tone-alt:before { content: '\e061'; }
+.ff-font-simple-line-icons.icon-music-tone:before { content: '\e062'; }
+.ff-font-simple-line-icons.icon-microphone:before { content: '\e063'; }
+.ff-font-simple-line-icons.icon-loop:before { content: '\e064'; }
+.ff-font-simple-line-icons.icon-logout:before { content: '\e065'; }
+.ff-font-simple-line-icons.icon-login:before { content: '\e066'; }
+.ff-font-simple-line-icons.icon-list:before { content: '\e067'; }
+.ff-font-simple-line-icons.icon-like:before { content: '\e068'; }
+.ff-font-simple-line-icons.icon-home:before { content: '\e069'; }
+.ff-font-simple-line-icons.icon-grid:before { content: '\e06a'; }
+.ff-font-simple-line-icons.icon-graph:before { content: '\e06b'; }
+.ff-font-simple-line-icons.icon-equalizer:before { content: '\e06c'; }
+.ff-font-simple-line-icons.icon-dislike:before { content: '\e06d'; }
+.ff-font-simple-line-icons.icon-cursor:before { content: '\e06e'; }
+.ff-font-simple-line-icons.icon-control-start:before { content: '\e06f'; }
+.ff-font-simple-line-icons.icon-control-rewind:before { content: '\e070'; }
+.ff-font-simple-line-icons.icon-control-play:before { content: '\e071'; }
+.ff-font-simple-line-icons.icon-control-pause:before { content: '\e072'; }
+.ff-font-simple-line-icons.icon-control-forward:before { content: '\e073'; }
+.ff-font-simple-line-icons.icon-control-end:before { content: '\e074'; }
+.ff-font-simple-line-icons.icon-calendar:before { content: '\e075'; }
+.ff-font-simple-line-icons.icon-bulb:before { content: '\e076'; }
+.ff-font-simple-line-icons.icon-bar-chart:before { content: '\e077'; }
+.ff-font-simple-line-icons.icon-arrow-up:before { content: '\e078'; }
+.ff-font-simple-line-icons.icon-arrow-right:before { content: '\e079'; }
+.ff-font-simple-line-icons.icon-arrow-left:before { content: '\e07a'; }
+.ff-font-simple-line-icons.icon-arrow-down:before { content: '\e07b'; }
+.ff-font-simple-line-icons.icon-ban:before { content: '\e07c'; }
+.ff-font-simple-line-icons.icon-bubble:before { content: '\e07d'; }
+.ff-font-simple-line-icons.icon-camcorder:before { content: '\e07e'; }
+.ff-font-simple-line-icons.icon-camera:before { content: '\e07f'; }
+.ff-font-simple-line-icons.icon-check:before { content: '\e080'; }
+.ff-font-simple-line-icons.icon-clock:before { content: '\e081'; }
+.ff-font-simple-line-icons.icon-close:before { content: '\e082'; }
+.ff-font-simple-line-icons.icon-cloud-download:before { content: '\e083'; }
+.ff-font-simple-line-icons.icon-cloud-upload:before { content: '\e084'; }
+.ff-font-simple-line-icons.icon-doc:before { content: '\e085'; }
+.ff-font-simple-line-icons.icon-envelope:before { content: '\e086'; }
+.ff-font-simple-line-icons.icon-eye:before { content: '\e087'; }
+.ff-font-simple-line-icons.icon-flag:before { content: '\e088'; }
+.ff-font-simple-line-icons.icon-folder:before { content: '\e089'; }
+.ff-font-simple-line-icons.icon-heart:before { content: '\e08a'; }
+.ff-font-simple-line-icons.icon-info:before { content: '\e08b'; }
+.ff-font-simple-line-icons.icon-key:before { content: '\e08c'; }
+.ff-font-simple-line-icons.icon-link:before { content: '\e08d'; }
+.ff-font-simple-line-icons.icon-lock:before { content: '\e08e'; }
+.ff-font-simple-line-icons.icon-lock-open:before { content: '\e08f'; }
+.ff-font-simple-line-icons.icon-magnifier:before { content: '\e090'; }
+.ff-font-simple-line-icons.icon-magnifier-add:before { content: '\e091'; }
+.ff-font-simple-line-icons.icon-magnifier-remove:before { content: '\e092'; }
+.ff-font-simple-line-icons.icon-paper-clip:before { content: '\e093'; }
+.ff-font-simple-line-icons.icon-paper-plane:before { content: '\e094'; }
+.ff-font-simple-line-icons.icon-plus:before { content: '\e095'; }
+.ff-font-simple-line-icons.icon-pointer:before { content: '\e096'; }
+.ff-font-simple-line-icons.icon-power:before { content: '\e097'; }
+.ff-font-simple-line-icons.icon-refresh:before { content: '\e098'; }
+.ff-font-simple-line-icons.icon-reload:before { content: '\e099'; }
+.ff-font-simple-line-icons.icon-settings:before { content: '\e09a'; }
+.ff-font-simple-line-icons.icon-star:before { content: '\e09b'; }
+.ff-font-simple-line-icons.icon-symbol-female:before { content: '\e09c'; }
+.ff-font-simple-line-icons.icon-symbol-male:before { content: '\e09d'; }
+.ff-font-simple-line-icons.icon-target:before { content: '\e09e'; }
+.ff-font-simple-line-icons.icon-volume-1:before { content: '\e09f'; }
+.ff-font-simple-line-icons.icon-volume-2:before { content: '\e0a0'; }
+.ff-font-simple-line-icons.icon-volume-off:before { content: '\e0a1'; }
+.ff-font-simple-line-icons.icon-users:before { content: '\e001'; }
+

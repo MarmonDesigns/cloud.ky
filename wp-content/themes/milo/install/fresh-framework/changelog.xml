@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="1.8.25" date="2015-10-16">
+        <change>Social email</change>
+    </release>
+    <release version="1.8.24" date="2015-10-12">
+        <change>Additioons for template bigstream</change>
+    </release>
+    <release version="1.8.23" date="2015-10-08">
+        <change>Additioons for template bigstream</change>
+    </release>
+    <release version="1.8.22" date="2015-10-08">
+        <change>Additioons for template bigstream</change>
+    </release>
+    <release version="1.8.21" date="2015-10-06">
+        <change>WP Upgrader fix</change>
+        <change>Additioons for template bigstream</change>
+    </release>
+    <release version="1.8.20" date="2015-09-14">
+        <change>Small changes to our menu item limit fix plugin</change>
+    </release>
+    <release version="1.8.19" date="2015-09-03">
+        <change>Small changes to our Wien template</change>
+    </release>
+    <release version="1.8.18" date="2015-08-31">
+        <change>Small changes to our Wien template</change>
+    </release>
+    <release version="1.8.17" date="2015-08-27">
+        <change>Small changes to our Fresh Sidebar Manager plugin</change>
+    </release>
+    <release version="1.8.16" date="2015-08-24">
+        <change>Revision system applied to layouts</change>
+    </release>
+    <release version="1.8.15" date="2015-08-11">
+        <change>Ghost Layouts are automatically deleted</change>
+        <change>Fix for Fresh Custom Code plugin</change>
+    </release>
+    <release version="1.8.14" date="2015-08-10">
+        <change>Ghost Layouts are automatically deleted</change>
+        <change>Declaration of theme assets includer error</change>
+    </release>
+    <release version="1.8.13" date="2015-07-20">
+        <change>Bugfix in conditional logic</change>
+    </release>
+    <release version="1.8.12" date="2015-07-07">
+        <change>Bugfix in layout manager - emoji removed</change>
+    </release>
+    <release version="1.8.11" date="2015-07-02">
+        <change>Bugfix in layout manager - image picker now works</change>
+    </release>
+    <release version="1.8.10" date="2015-06-29">
+        <change>Bugfix in layout manager</change>
+    </release>
+    <release version="1.8.9" date="2015-06-28">
+        <change>Bugfix in less variable parser</change>
+    </release>
+    <release version="1.8.8" date="2015-06-26">
+        <change>Additions for new template Milo</change>
+    </release>
+    <release version="1.8.7" date="2015-06-17">
+        <change>Bugfix in writepanels</change>
+    </release>
+    <release version="1.8.6" date="2015-05-22">
+        <change>Faster options implemented</change>
+    </release>
+    <release version="1.8.5" date="2015-05-21">
+        <change>Faster options implemented</change>
+    </release>
+    <release version="1.8.4" date="2015-05-18">
+        <change>Better comatibility with older PHP versions - replaced anonymous function.</change>
+    </release>
+    <release version="1.8.3" date="2015-05-15">
+        <change>Better comatibility with older PHP versions.</change>
+    </release>
+    <release version="1.8.2" date="2015-05-11">
+        <change>Removed system-like files from bootstrap and less compiler</change>
+    </release>
+    <release version="1.8.1" date="2015-05-06">
+        <change>Bugfix for Casanova Theme</change>
+    </release>
+    <release version="1.8.0" date="2015-04-30">
+        <change>Cached options</change>
+    </release>
+    <release version="1.7.16" date="2015-04-09">
+        <change>Conditional Logic with better explanation</change>
+        <change>Better integration of revolution slider in options</change>
+    </release>
+    <release version="1.7.15" date="2015-04-02">
+        <change>Additions for new template Casanova</change>
+    </release>
+    <release version="1.7.14" date="2015-03-27">
+        <change>Cached options</change>
+    </release>
+    <release version="1.7.13" date="2015-03-26">
+        <change>Cached options</change>
+    </release>
+    <release version="1.7.12" date="2015-03-21">
+        <change>Fixed get image size problem</change>
+    </release>
+    <release version="1.7.11" date="2015-03-19">
+        <change>Additions for new template Bigstream</change>
+    </release>
+    <release version="1.7.10" date="2015-03-19">
+        <change>Additions for new template Bigstream</change>
+    </release>
+    <release version="1.7.9" date="2015-03-12">
+        <change>Additions for new template Bigstream</change>
+    </release>
+    <release version="1.7.8" date="2015-03-12">
+        <change>Additions for new template Bigstream</change>
+    </release>
+    <release version="1.7.7" date="2015-03-12">
+        <change>Fixed theme options bug - calling uninitialized datepicker</change>
+    </release>
+    <release version="1.7.6" date="2015-03-10">
+        <change>Additions for new template Bigstream</change>
+    </release>
+    <release version="1.7.5" date="2015-03-06">
+        <change>Fixed closing in section picker on ESC key</change>
+        <change>Fixed search in icon picker</change>
+    </release>
+    <release version="1.7.0" date="2015-01-26">
+        <change>Added tools for post metas</change>
+    </release>
+    <release version="1.6.9" date="2015-01-05">
+        <change>Additions for custom code plugin</change>
+    </release>
+    <release version="1.6.8" date="2014-10-30">
+        <change>Added Font Awesome 4</change>
+        <change>Additions for new template Oxygen</change>
+    </release>
+	<release version="1.6.7" date="2014-10-13">
+		<change>Bugfix - fix for options walker</change>
+    </release>
+	<release version="1.6.6" date="2014-10-08">
+		<change>Bugfix - options can be empty now</change>
+        <change>Additions for new template Oxygen</change>
+    </release>
+	<release version="1.6.5" date="2014-09-30">
+        <change>Additions for new template Oxygen</change>
+    </release>
+	<release version="1.6.4" date="2014-09-29">
+        <change>Additions for new template Oxygen</change>
+    </release>
+	<release version="1.6.3" date="2014-09-26">
+        <change>Additions for new template Oxygen</change>
+    </release>
+	<release version="1.6.2" date="2014-09-26">
+        <change>Additions for new template Oxygen</change>
+    </release>
+    <release version="1.6.1" date="2014-09-23">
+        <change>Additions for new template Oxygen</change>
+    </release>
+    <release version="1.6.0" date="2014-09-04">
+        <change>Additions for new template Oxygen</change>
+    </release>
+    <release version="1.5.3" date="2014-08-05">
+        <change>Missing title in plugin update information</change>
+        <change>Other small fixes</change>
+    </release>
+    <release version="1.5.2" date="2014-07-29">
+        <change>Fixes for our Custom Code plugin</change>
+    </release>
+    <release version="1.5.1" date="2014-07-29">
+        <change>Fixes for our Custom Code plugin</change>
+    </release>
+    <release version="1.5.0" date="2014-07-24">
+        <change>Additions for our new Scrollbar plugin</change>
+    </release>
+    <release version="1.4.10" date="2014-07-18">
+        <change>Layout fix for repeatable logic</change>
+    </release>
+    <release version="1.4.9" date="2014-07-11">
+        <change>Layout fix for repeatable logic</change>
+    </release>
+    <release version="1.4.8" date="2014-07-09">
+        <change>Page archive custom post added into conditional logic</change>
+    </release>
+    <release version="1.4.7" date="2014-07-04">
+        <change>Problems with lightbox in sidebar manager WP admin fix</change>
+    </release>
+    <release version="1.4.6" date="2014-06-30">
+        <change>Problems with HTTPS in WP admin fix</change>
+    </release>
+    <release version="1.4.5" date="2014-06-27">
+        <change>Additions for our new Favicon plugin</change>
+    </release>
+    <release version="1.4.4" date="2014-06-24">
+        <change>Bugfix - removing use tracy statement</change>
+    </release>
+    <release version="1.4.3" date="2014-06-09">
+        <change>Bugfix - bootstrap.php was using a use statement</change>
+    </release>
+    <release version="1.4.2" date="2014-06-06">
+        <change>Bugfix for Performance Cache minification - fixed another small problem</change>
+    </release>
+    <release version="1.4.1" date="2014-06-04">
+        <change>Bugfix for Performance Cache minification</change>
+    </release>
+    <release version="1.4.0" date="2014-05-20">
+        <change>Additions for our new File Editor plugin</change>
+    </release>
+    <release version="1.3.1" date="2014-05-20">
+        <change>Bugfix and small additions related to our Fresh Sidebar Manager plugin</change>
+    </release>
+    <release version="1.3.0" date="2014-05-16">
+        <change>Additions for our new Fresh Sidebar Manager plugin</change>
+    </release>
+    <release version="1.2.3" date="2014-05-12">
+        <change>Error in class.ffConditionalLogicEvaluator.php on line 185 = fixed</change>
+    </release>
+    <release version="1.2.2" date="2014-05-12">
+        <change>Fixes and improvements related to Custom Code plugin</change>
+    </release>
+    <release version="1.2.1" date="2014-05-11">
+        <change>Fixes and improvements related to Custom Code plugin</change>
+    </release>
+    <release version="1.2.0" date="2014-05-09">
+        <change>Additions for our new Custom Code plugin</change>
+    </release>
+    <release version="1.1.2" date="2014-03-05">
+        <change>Version bump</change>
+    </release>
+    <release version="1.1.1" date="2014-03-05">
+        <change>Credits added</change>
+    </release>
+    <release version="1.1.0" date="2014-03-05">
+        <change>Added scssphp library</change>
+        <change>Small change to microtime functions</change>
+        <change>Better caching</change>
+    </release>
+    <release version="1.0.1" date="2014-03-04">
+    	<change>Ability to add priority for hooks</change>
+        <change>Ability to upload fonts in wp-admin</change>
+        <change>Better management with ZIP files</change>
+        <change>Added lessphp library</change>
+        <change>PHP5.2 crashing</change>
+        <change>Better cache management</change>
+    </release>
+    <release version="1.0.0" date="2014-02-28">
+        <change>Initial release</change>
+    </release>
+</changelog>

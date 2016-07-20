@@ -1,0 +1,236 @@
+@font-face {
+	font-family: 'ff-font-flaticon-mat';
+	src: url('./ff-font-flaticon-mat.eot?v=4.0.3');
+	src: url('./ff-font-flaticon-mat.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-flaticon-mat.woff?v=4.0.3') format('woff'), url('./ff-font-flaticon-mat.ttf?v=4.0.3') format('truetype'), url('./ff-font-flaticon-mat.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+.ff-font-flaticon-mat {
+	display: inline-block;
+	font-family: 'ff-font-flaticon-mat';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/*
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	font-family: Flaticon;
+		font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+*/
+.ff-font-flaticon-mat.icon-arrow164:before { content: '\e000'; }
+.ff-font-flaticon-mat.icon-at1:before { content: '\e001'; }
+.ff-font-flaticon-mat.icon-audio23:before { content: '\e002'; }
+.ff-font-flaticon-mat.icon-batterystatus13:before { content: '\e003'; }
+.ff-font-flaticon-mat.icon-batterystatus14:before { content: '\e004'; }
+.ff-font-flaticon-mat.icon-batterystatus15:before { content: '\e005'; }
+.ff-font-flaticon-mat.icon-box108:before { content: '\e006'; }
+.ff-font-flaticon-mat.icon-boxes15:before { content: '\e007'; }
+.ff-font-flaticon-mat.icon-building120:before { content: '\e008'; }
+.ff-font-flaticon-mat.icon-button49:before { content: '\e009'; }
+.ff-font-flaticon-mat.icon-calculating:before { content: '\e00a'; }
+.ff-font-flaticon-mat.icon-calculator16:before { content: '\e00b'; }
+.ff-font-flaticon-mat.icon-cam1:before { content: '\e00c'; }
+.ff-font-flaticon-mat.icon-camera31:before { content: '\e00d'; }
+.ff-font-flaticon-mat.icon-cameras7:before { content: '\e00e'; }
+.ff-font-flaticon-mat.icon-cassette1:before { content: '\e00f'; }
+.ff-font-flaticon-mat.icon-cd11:before { content: '\e010'; }
+.ff-font-flaticon-mat.icon-cd13:before { content: '\e011'; }
+.ff-font-flaticon-mat.icon-cd8:before { content: '\e012'; }
+.ff-font-flaticon-mat.icon-cellphone93:before { content: '\e013'; }
+.ff-font-flaticon-mat.icon-cellphones1:before { content: '\e014'; }
+.ff-font-flaticon-mat.icon-certificate3:before { content: '\e015'; }
+.ff-font-flaticon-mat.icon-charge4:before { content: '\e016'; }
+.ff-font-flaticon-mat.icon-clock217:before { content: '\e017'; }
+.ff-font-flaticon-mat.icon-clocks8:before { content: '\e018'; }
+.ff-font-flaticon-mat.icon-cloudstorage5:before { content: '\e019'; }
+.ff-font-flaticon-mat.icon-cloud69:before { content: '\e01a'; }
+.ff-font-flaticon-mat.icon-clouds49:before { content: '\e01b'; }
+.ff-font-flaticon-mat.icon-compass17:before { content: '\e01c'; }
+.ff-font-flaticon-mat.icon-computermouse10:before { content: '\e01d'; }
+.ff-font-flaticon-mat.icon-computermouse13:before { content: '\e01e'; }
+.ff-font-flaticon-mat.icon-computerscreen10:before { content: '\e01f'; }
+.ff-font-flaticon-mat.icon-computerscreen8:before { content: '\e020'; }
+.ff-font-flaticon-mat.icon-computers31:before { content: '\e021'; }
+.ff-font-flaticon-mat.icon-connection68:before { content: '\e022'; }
+.ff-font-flaticon-mat.icon-connection69:before { content: '\e023'; }
+.ff-font-flaticon-mat.icon-connector5:before { content: '\e024'; }
+.ff-font-flaticon-mat.icon-controller4:before { content: '\e025'; }
+.ff-font-flaticon-mat.icon-controller5:before { content: '\e026'; }
+.ff-font-flaticon-mat.icon-device21:before { content: '\e027'; }
+.ff-font-flaticon-mat.icon-direction103:before { content: '\e028'; }
+.ff-font-flaticon-mat.icon-diskette22:before { content: '\e029'; }
+.ff-font-flaticon-mat.icon-document26:before { content: '\e02a'; }
+.ff-font-flaticon-mat.icon-document27:before { content: '\e02b'; }
+.ff-font-flaticon-mat.icon-document28:before { content: '\e02c'; }
+.ff-font-flaticon-mat.icon-documents36:before { content: '\e02d'; }
+.ff-font-flaticon-mat.icon-earphone:before { content: '\e02e'; }
+.ff-font-flaticon-mat.icon-earphones11:before { content: '\e02f'; }
+.ff-font-flaticon-mat.icon-email14:before { content: '\e030'; }
+.ff-font-flaticon-mat.icon-email16:before { content: '\e031'; }
+.ff-font-flaticon-mat.icon-favorite7:before { content: '\e032'; }
+.ff-font-flaticon-mat.icon-file187:before { content: '\e033'; }
+.ff-font-flaticon-mat.icon-file189:before { content: '\e034'; }
+.ff-font-flaticon-mat.icon-filmstrip5:before { content: '\e035'; }
+.ff-font-flaticon-mat.icon-film5:before { content: '\e036'; }
+.ff-font-flaticon-mat.icon-film6:before { content: '\e037'; }
+.ff-font-flaticon-mat.icon-films3:before { content: '\e038'; }
+.ff-font-flaticon-mat.icon-folder47:before { content: '\e039'; }
+.ff-font-flaticon-mat.icon-folder49:before { content: '\e03a'; }
+.ff-font-flaticon-mat.icon-gaming:before { content: '\e03b'; }
+.ff-font-flaticon-mat.icon-garbage2:before { content: '\e03c'; }
+.ff-font-flaticon-mat.icon-gear65:before { content: '\e03d'; }
+.ff-font-flaticon-mat.icon-glasses37:before { content: '\e03e'; }
+.ff-font-flaticon-mat.icon-gps6:before { content: '\e03f'; }
+.ff-font-flaticon-mat.icon-hands2:before { content: '\e040'; }
+.ff-font-flaticon-mat.icon-hardware2:before { content: '\e041'; }
+.ff-font-flaticon-mat.icon-headphones6:before { content: '\e042'; }
+.ff-font-flaticon-mat.icon-headset2:before { content: '\e043'; }
+.ff-font-flaticon-mat.icon-illumination12:before { content: '\e044'; }
+.ff-font-flaticon-mat.icon-information12:before { content: '\e045'; }
+.ff-font-flaticon-mat.icon-instrument21:before { content: '\e046'; }
+.ff-font-flaticon-mat.icon-ipod18:before { content: '\e047'; }
+.ff-font-flaticon-mat.icon-ipod3:before { content: '\e048'; }
+.ff-font-flaticon-mat.icon-joysticks:before { content: '\e049'; }
+.ff-font-flaticon-mat.icon-keyboard6:before { content: '\e04a'; }
+.ff-font-flaticon-mat.icon-keyboards2:before { content: '\e04b'; }
+.ff-font-flaticon-mat.icon-lamps2:before { content: '\e04c'; }
+.ff-font-flaticon-mat.icon-laptop12:before { content: '\e04d'; }
+.ff-font-flaticon-mat.icon-laptop13:before { content: '\e04e'; }
+.ff-font-flaticon-mat.icon-letter9:before { content: '\e04f'; }
+.ff-font-flaticon-mat.icon-letters17:before { content: '\e050'; }
+.ff-font-flaticon-mat.icon-levels1:before { content: '\e051'; }
+.ff-font-flaticon-mat.icon-lightbulb24:before { content: '\e052'; }
+.ff-font-flaticon-mat.icon-linegraphic1:before { content: '\e053'; }
+.ff-font-flaticon-mat.icon-link13:before { content: '\e054'; }
+.ff-font-flaticon-mat.icon-list19:before { content: '\e055'; }
+.ff-font-flaticon-mat.icon-lock121:before { content: '\e056'; }
+.ff-font-flaticon-mat.icon-locks:before { content: '\e057'; }
+.ff-font-flaticon-mat.icon-longplay:before { content: '\e058'; }
+.ff-font-flaticon-mat.icon-magnifyingglass43:before { content: '\e059'; }
+.ff-font-flaticon-mat.icon-mail96:before { content: '\e05a'; }
+.ff-font-flaticon-mat.icon-mail98:before { content: '\e05b'; }
+.ff-font-flaticon-mat.icon-messages:before { content: '\e05c'; }
+.ff-font-flaticon-mat.icon-microphone112:before { content: '\e05d'; }
+.ff-font-flaticon-mat.icon-microphones3:before { content: '\e05e'; }
+.ff-font-flaticon-mat.icon-microphones4:before { content: '\e05f'; }
+.ff-font-flaticon-mat.icon-minussign3:before { content: '\e060'; }
+.ff-font-flaticon-mat.icon-mouse12:before { content: '\e061'; }
+.ff-font-flaticon-mat.icon-multimediaoption4:before { content: '\e062'; }
+.ff-font-flaticon-mat.icon-musicplayer6:before { content: '\e063'; }
+.ff-font-flaticon-mat.icon-musicplayer7:before { content: '\e064'; }
+.ff-font-flaticon-mat.icon-music31:before { content: '\e065'; }
+.ff-font-flaticon-mat.icon-music32:before { content: '\e066'; }
+.ff-font-flaticon-mat.icon-music33:before { content: '\e067'; }
+.ff-font-flaticon-mat.icon-musical139:before { content: '\e068'; }
+.ff-font-flaticon-mat.icon-musical19:before { content: '\e069'; }
+.ff-font-flaticon-mat.icon-newspapers2:before { content: '\e06a'; }
+.ff-font-flaticon-mat.icon-nintendo11:before { content: '\e06b'; }
+.ff-font-flaticon-mat.icon-notepad30:before { content: '\e06c'; }
+.ff-font-flaticon-mat.icon-paper30:before { content: '\e06d'; }
+.ff-font-flaticon-mat.icon-pencil17:before { content: '\e06e'; }
+.ff-font-flaticon-mat.icon-pendrive1:before { content: '\e06f'; }
+.ff-font-flaticon-mat.icon-phone43:before { content: '\e070'; }
+.ff-font-flaticon-mat.icon-phone44:before { content: '\e071'; }
+.ff-font-flaticon-mat.icon-photocamera1:before { content: '\e072'; }
+.ff-font-flaticon-mat.icon-photocamera2:before { content: '\e073'; }
+.ff-font-flaticon-mat.icon-photography28:before { content: '\e074'; }
+.ff-font-flaticon-mat.icon-picture7:before { content: '\e075'; }
+.ff-font-flaticon-mat.icon-pictures9:before { content: '\e076'; }
+.ff-font-flaticon-mat.icon-playbutton5:before { content: '\e077'; }
+.ff-font-flaticon-mat.icon-playbutton6:before { content: '\e078'; }
+.ff-font-flaticon-mat.icon-playbutton7:before { content: '\e079'; }
+.ff-font-flaticon-mat.icon-playbutton8:before { content: '\e07a'; }
+.ff-font-flaticon-mat.icon-plug43:before { content: '\e07b'; }
+.ff-font-flaticon-mat.icon-plussign14:before { content: '\e07c'; }
+.ff-font-flaticon-mat.icon-ports:before { content: '\e07d'; }
+.ff-font-flaticon-mat.icon-powerbutton1:before { content: '\e07e'; }
+.ff-font-flaticon-mat.icon-power21:before { content: '\e07f'; }
+.ff-font-flaticon-mat.icon-print72:before { content: '\e080'; }
+.ff-font-flaticon-mat.icon-projector10:before { content: '\e081'; }
+.ff-font-flaticon-mat.icon-radio3:before { content: '\e082'; }
+.ff-font-flaticon-mat.icon-radio4:before { content: '\e083'; }
+.ff-font-flaticon-mat.icon-radios1:before { content: '\e084'; }
+.ff-font-flaticon-mat.icon-radios2:before { content: '\e085'; }
+.ff-font-flaticon-mat.icon-ramemory:before { content: '\e086'; }
+.ff-font-flaticon-mat.icon-router1:before { content: '\e087'; }
+.ff-font-flaticon-mat.icon-satellitedish:before { content: '\e088'; }
+.ff-font-flaticon-mat.icon-screen116:before { content: '\e089'; }
+.ff-font-flaticon-mat.icon-screen117:before { content: '\e08a'; }
+.ff-font-flaticon-mat.icon-screen119:before { content: '\e08b'; }
+.ff-font-flaticon-mat.icon-securitysystem:before { content: '\e08c'; }
+.ff-font-flaticon-mat.icon-shields15:before { content: '\e08d'; }
+.ff-font-flaticon-mat.icon-shoppingcart12:before { content: '\e08e'; }
+.ff-font-flaticon-mat.icon-shoppingcart13:before { content: '\e08f'; }
+.ff-font-flaticon-mat.icon-shoppingcart14:before { content: '\e090'; }
+.ff-font-flaticon-mat.icon-sign45:before { content: '\e091'; }
+.ff-font-flaticon-mat.icon-sim5:before { content: '\e092'; }
+.ff-font-flaticon-mat.icon-smartphone100:before { content: '\e093'; }
+.ff-font-flaticon-mat.icon-smartphone101:before { content: '\e094'; }
+.ff-font-flaticon-mat.icon-smartphone102:before { content: '\e095'; }
+.ff-font-flaticon-mat.icon-smartphone104:before { content: '\e096'; }
+.ff-font-flaticon-mat.icon-smartphone105:before { content: '\e097'; }
+.ff-font-flaticon-mat.icon-smartphone106:before { content: '\e098'; }
+.ff-font-flaticon-mat.icon-smartphone97:before { content: '\e099'; }
+.ff-font-flaticon-mat.icon-smartphone98:before { content: '\e09a'; }
+.ff-font-flaticon-mat.icon-smartphone99:before { content: '\e09b'; }
+.ff-font-flaticon-mat.icon-smartphones:before { content: '\e09c'; }
+.ff-font-flaticon-mat.icon-sound11:before { content: '\e09d'; }
+.ff-font-flaticon-mat.icon-speaker16:before { content: '\e09e'; }
+.ff-font-flaticon-mat.icon-speaker17:before { content: '\e09f'; }
+.ff-font-flaticon-mat.icon-speechbubble46:before { content: '\e0a0'; }
+.ff-font-flaticon-mat.icon-speechbubble47:before { content: '\e0a1'; }
+.ff-font-flaticon-mat.icon-squares62:before { content: '\e0a2'; }
+.ff-font-flaticon-mat.icon-stars37:before { content: '\e0a3'; }
+.ff-font-flaticon-mat.icon-statistics22:before { content: '\e0a4'; }
+.ff-font-flaticon-mat.icon-suitcase17:before { content: '\e0a5'; }
+.ff-font-flaticon-mat.icon-tablet22:before { content: '\e0a6'; }
+.ff-font-flaticon-mat.icon-tablet24:before { content: '\e0a7'; }
+.ff-font-flaticon-mat.icon-tablets10:before { content: '\e0a8'; }
+.ff-font-flaticon-mat.icon-tablets11:before { content: '\e0a9'; }
+.ff-font-flaticon-mat.icon-tablets8:before { content: '\e0aa'; }
+.ff-font-flaticon-mat.icon-technology35:before { content: '\e0ab'; }
+.ff-font-flaticon-mat.icon-technology36:before { content: '\e0ac'; }
+.ff-font-flaticon-mat.icon-telephone51:before { content: '\e0ad'; }
+.ff-font-flaticon-mat.icon-telephone52:before { content: '\e0ae'; }
+.ff-font-flaticon-mat.icon-telephone53:before { content: '\e0af'; }
+.ff-font-flaticon-mat.icon-telephone54:before { content: '\e0b0'; }
+.ff-font-flaticon-mat.icon-television2:before { content: '\e0b1'; }
+.ff-font-flaticon-mat.icon-televisions:before { content: '\e0b2'; }
+.ff-font-flaticon-mat.icon-tower5:before { content: '\e0b3'; }
+.ff-font-flaticon-mat.icon-tvscreen1:before { content: '\e0b4'; }
+.ff-font-flaticon-mat.icon-uploading7:before { content: '\e0b5'; }
+.ff-font-flaticon-mat.icon-usb12:before { content: '\e0b6'; }
+.ff-font-flaticon-mat.icon-usb9:before { content: '\e0b7'; }
+.ff-font-flaticon-mat.icon-vibrate:before { content: '\e0b8'; }
+.ff-font-flaticon-mat.icon-videocamera4:before { content: '\e0b9'; }
+.ff-font-flaticon-mat.icon-videocamera6:before { content: '\e0ba'; }
+.ff-font-flaticon-mat.icon-videocamera7:before { content: '\e0bb'; }
+.ff-font-flaticon-mat.icon-videoplayer7:before { content: '\e0bc'; }
+.ff-font-flaticon-mat.icon-volumeadjustment2:before { content: '\e0bd'; }
+.ff-font-flaticon-mat.icon-wallclock2:before { content: '\e0be'; }
+.ff-font-flaticon-mat.icon-weather5:before { content: '\e0bf'; }
+.ff-font-flaticon-mat.icon-wifi:before { content: '\e0c0'; }
+.ff-font-flaticon-mat.icon-wireless10:before { content: '\e0c1'; }
+.ff-font-flaticon-mat.icon-wireless48:before { content: '\e0c2'; }
+.ff-font-flaticon-mat.icon-wristwatch:before { content: '\e0c3'; }
+.ff-font-flaticon-mat.icon-writingtool:before { content: '\e0c4'; }
+.ff-font-flaticon-mat.icon-xerox:before { content: '\e0c5'; }
+.ff-font-flaticon-mat.icon-zoom10:before { content: '\e0c6'; }

@@ -1,0 +1,76 @@
+/**************************************
+This is created from orginal font.
+See 'README.md' for more info
+**************************************/
+
+@font-face {
+	font-family: 'ff-font-stateface';
+	src: url('./ff-font-stateface.eot?v=4.0.3');
+	src: url('./ff-font-stateface.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('./ff-font-stateface.woff?v=4.0.3') format('woff'), url('./ff-font-stateface.ttf?v=4.0.3') format('truetype'), url('./ff-font-stateface.svg?v=4.0.3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ff-font-stateface {
+	display: inline-block;
+	font-family: 'ff-font-stateface';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff-font-stateface.icon-ak:before { content: '\41'; } /* Alaska  AK */ 
+.ff-font-stateface.icon-al:before { content: '\42'; } /* Alabama  AL */ 
+.ff-font-stateface.icon-ar:before { content: '\43'; } /* Arkansas  AR */ 
+.ff-font-stateface.icon-az:before { content: '\44'; } /* Arizona  AZ */ 
+.ff-font-stateface.icon-ca:before { content: '\45'; } /* California  CA */ 
+.ff-font-stateface.icon-co:before { content: '\46'; } /* Colorado  CO */ 
+.ff-font-stateface.icon-ct:before { content: '\47'; } /* Connecticut  CT */ 
+.ff-font-stateface.icon-dc:before { content: '\79'; } /* Dist. of Columbia  DC */ 
+.ff-font-stateface.icon-de:before { content: '\48'; } /* Delaware  DE */ 
+.ff-font-stateface.icon-fl:before { content: '\49'; } /* Florida  FL */ 
+.ff-font-stateface.icon-ga:before { content: '\4a'; } /* Georgia  GA */ 
+.ff-font-stateface.icon-hi:before { content: '\4b'; } /* Hawaii  HI */ 
+.ff-font-stateface.icon-ia:before { content: '\4c'; } /* Iowa  IA */ 
+.ff-font-stateface.icon-id:before { content: '\4d'; } /* Idaho  ID */ 
+.ff-font-stateface.icon-il:before { content: '\4e'; } /* Illinois  IL */ 
+.ff-font-stateface.icon-in:before { content: '\4f'; } /* Indiana  IN */ 
+.ff-font-stateface.icon-ks:before { content: '\50'; } /* Kansas  KS */ 
+.ff-font-stateface.icon-ky:before { content: '\51'; } /* Kentucky  KY */ 
+.ff-font-stateface.icon-la:before { content: '\52'; } /* Louisiana  LA */ 
+.ff-font-stateface.icon-ma:before { content: '\53'; } /* Massachusetts  MA */ 
+.ff-font-stateface.icon-md:before { content: '\54'; } /* Maryland  MD */ 
+.ff-font-stateface.icon-me:before { content: '\55'; } /* Maine  ME */ 
+.ff-font-stateface.icon-mi:before { content: '\56'; } /* Michigan  MI */ 
+.ff-font-stateface.icon-mn:before { content: '\57'; } /* Minnesota  MN */ 
+.ff-font-stateface.icon-mo:before { content: '\58'; } /* Missouri  MO */ 
+.ff-font-stateface.icon-ms:before { content: '\59'; } /* Mississippi  MS */ 
+.ff-font-stateface.icon-mt:before { content: '\5a'; } /* Montana  MT */ 
+.ff-font-stateface.icon-nc:before { content: '\61'; } /* North Carolina  NC */ 
+.ff-font-stateface.icon-nd:before { content: '\62'; } /* North Dakota  ND */ 
+.ff-font-stateface.icon-ne:before { content: '\63'; } /* Nebraska  NE */ 
+.ff-font-stateface.icon-nh:before { content: '\64'; } /* New Hampshire  NH */ 
+.ff-font-stateface.icon-nj:before { content: '\65'; } /* New Jersey  NJ */ 
+.ff-font-stateface.icon-nm:before { content: '\66'; } /* New Mexico  NM */ 
+.ff-font-stateface.icon-nv:before { content: '\67'; } /* Nevada  NV */ 
+.ff-font-stateface.icon-ny:before { content: '\68'; } /* New York  NY */ 
+.ff-font-stateface.icon-oh:before { content: '\69'; } /* Ohio  OH */ 
+.ff-font-stateface.icon-ok:before { content: '\6a'; } /* Oklahoma  OK */ 
+.ff-font-stateface.icon-or:before { content: '\6b'; } /* Oregon  OR */ 
+.ff-font-stateface.icon-pa:before { content: '\6c'; } /* Pennsylvania  PA */ 
+.ff-font-stateface.icon-pr:before { content: '\33'; } /* Puerto Rico  PR */ 
+.ff-font-stateface.icon-ri:before { content: '\6d'; } /* Rhode Island  RI */ 
+.ff-font-stateface.icon-sc:before { content: '\6e'; } /* South Carolina  SC */ 
+.ff-font-stateface.icon-sd:before { content: '\6f'; } /* South Dakota  SD */ 
+.ff-font-stateface.icon-tn:before { content: '\70'; } /* Tennessee  TN */ 
+.ff-font-stateface.icon-tx:before { content: '\71'; } /* Texas  TX */ 
+.ff-font-stateface.icon-us:before { content: '\7a'; } /* United States of America USA */ 
+.ff-font-stateface.icon-ut:before { content: '\72'; } /* Utah  UT */ 
+.ff-font-stateface.icon-va:before { content: '\73'; } /* Virginia  VA */ 
+.ff-font-stateface.icon-vt:before { content: '\74'; } /* Vermont  VT */ 
+.ff-font-stateface.icon-wa:before { content: '\75'; } /* Washington  WA */ 
+.ff-font-stateface.icon-wi:before { content: '\76'; } /* Wisconsin  WI */ 
+.ff-font-stateface.icon-wv:before { content: '\77'; } /* West Virginia  WV */ 
+.ff-font-stateface.icon-wy:before { content: '\78'; } /* Wyoming  WY */ 

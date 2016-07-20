@@ -1,0 +1,123 @@
+html .mceContentBody{
+	margin: 10px;
+}
+
+.ff_sc_edit ,
+.ff_sc_delete {
+	margin-top: 7px;
+	margin-left: 7px;
+	padding: 2px;
+	width: 26px;
+	height: 26px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	background-color: #000;
+	background-color: rgba(0,0,0,0.9);
+	cursor: pointer;
+	color: #FFF;
+
+	display: none;
+	overflow: hidden;
+
+	font-size: 20px;
+	line-height: 1;
+	font-family: dashicons;
+	text-decoration: inherit;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: top;
+	-webkit-transition: color .1s ease-in 0;
+	transition: color .1s ease-in 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ff_sc[data-ff-helper-display=inline] .ff_sc_buttons{
+	display: block;
+	position: relative;
+	overflow: visible;
+	height: 0;
+	top: -30px;
+}
+
+
+.ff_sc:hover .ff_sc_edit ,
+.ff_sc:hover .ff_sc_delete {
+	display: inline-block;
+}
+
+.ff_sc_edit:before{
+	content: "\f464";
+}
+
+.ff_sc_delete:before{
+	content: "\f335";
+}
+
+.ff_sc{
+}
+
+.ff_sc_end{
+	display: none;
+}
+
+.ff_sc[data-ff-helper-display=block]{
+	display: block;
+	background-color: #EEE;
+	/*border: 1px solid #CCC;*/
+	height: 50px;
+}
+
+.ff_sc[data-ff-helper-display=inline]{
+	display: inline-block;
+}
+
+.mce-content-body img.ff_sc[data-mce-selected] {
+	outline: 1px dotted #888;
+}
+
+.ff_sc[data-shortcode=ff_twitter]{
+	background-color: #CCEEFF;
+	background-image: url(http://www.nathankressmusic.com/images/follow%20us%20on%20twitter-logo-3.png);
+	background-repeat: no-repeat;
+	background-position: 0, 0;
+}
+
+.ff_sc[data-shortcode=ff_dual_button]{
+	background-color: #123456;
+	color: #098765;
+	display: inline-block;
+}
+
+.ff_sc[data-shortcode=ff_column]{
+
+	height: 16px;
+	line-height: 30px;
+	background-image: url(http://127.0.0.1:8888/wp/sandbox/wp-includes/js/tinymce/skins/wordpress/images/more-2x.png);
+	background-size: 1900px 20px;
+	box-sizing: border-box;
+
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 100%;
+	height: 16px;
+	display: block;
+	margin: 15px 0 0 0;
+	outline: 0;
+	cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
